@@ -1,51 +1,51 @@
 import { useLanguage } from "../../context/LanguageContext";
 import Container from "../ui/Container";
-import Button from "../ui/Button";
-import Tag from "../ui/Tag";
 
 export default function HeroSection() {
   const { t } = useLanguage();
 
+  const chips = ["Rust", "React", "Linux"];
+  const traits = ["Backend-first", "Product-minded", "ES · EN · PT"];
+
   return (
     <section className="hero section" id="top">
       <Container>
-        <div className="hero__content">
-          <div className="hero__left">
-            <div className="hero-profile">
-              <div className="hero-profile__avatar" aria-hidden="true">
-                <span>👤</span>
-              </div>
+        <div className="hero__content hero__content--minimal">
+          <div className="hero__left hero__left--stacked">
+            <div className="hero-photo">
+              <img
+                src="/media/removebg1.png"
+                alt="Raúl Figuera"
+              />
+            </div>
 
+            <div className="hero-profile hero-profile--card">
               <div className="hero-profile__meta">
-                <span className="hero-profile__eyebrow">{t.hero.profileName}</span>
-                <p className="hero-profile__role">{t.hero.profileRole}</p>
+                <span className="hero-profile__eyebrow">
+                  {t.hero.profileName}
+                </span>
+                <p className="hero-profile__role">
+                  {t.hero.profileRole}
+                </p>
               </div>
             </div>
 
-            <p className="hero__quote">{t.hero.quote}</p>
+            <div className="hero-mini-info">
+              <div className="hero-mini-info__row hero-mini-info__row--primary">
+                {traits.map((item) => (
+                  <span key={item} className="hero-mini-info__pill hero-mini-info__pill--soft">
+                    {item}
+                  </span>
+                ))}
+              </div>
 
-            <h1 className="hero__title hero__title--compact">
-              {t.hero.compactTitle}
-            </h1>
-
-            <p className="hero__description">{t.hero.description}</p>
-
-            <div className="hero__actions">
-              <Button href="#projects" variant="primary">
-                {t.hero.primaryCta}
-              </Button>
-
-              <Button href="#contact" variant="secondary">
-                {t.hero.secondaryCta}
-              </Button>
-            </div>
-
-            <div className="hero__tags">
-              <Tag>Rust</Tag>
-              <Tag>Actix Web</Tag>
-              <Tag>React</Tag>
-              <Tag>Redux Toolkit</Tag>
-              <Tag>Linux</Tag>
+              <div className="hero-mini-info__row">
+                {chips.map((item) => (
+                  <span key={item} className="hero-mini-info__pill">
+                    {item}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
 
@@ -73,7 +73,10 @@ export default function HeroSection() {
 
                 <div className="hero-panel__grid">
                   {t.hero.panel.items.map((item) => (
-                    <div key={`${item.label}-${item.title}`} className="hero-panel__item">
+                    <div
+                      key={`${item.label}-${item.title}`}
+                      className="hero-panel__item"
+                    >
                       <span>{item.label}</span>
                       <strong>{item.title}</strong>
                     </div>

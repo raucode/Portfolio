@@ -43,29 +43,31 @@ export const translations = {
     },
     mindset: {
       eyebrow: "Mindset",
-      title: "I care about systems that hold up under growth.",
+      title: "I build with the future weight of the system in mind.",
       description:
-        "I do not stop at implementation. I try to understand the full system, question architectural decisions and improve the structure before complexity grows.",
+        "I care about more than getting things to work. I try to understand how a system will evolve, challenge architectural decisions early, and keep complexity from turning into structural debt.",
+      statementLabel: "What guides me",
+      statement: "Scale does not break systems on its own. Accumulated decisions do.",
       items: [
         {
-          title: "System vision",
+          title: "System perspective",
           description:
-            "I work by understanding how logic, product and experience connect.",
+            "I look at logic, product, and user experience as parts of the same system, not as isolated layers.",
         },
         {
-          title: "Architecture with intent",
+          title: "Architecture on purpose",
           description:
-            "I design for scale, maintainability and clarity from the beginning.",
+            "I make structural decisions with change, clarity, and maintainability in mind from the start.",
         },
         {
-          title: "Critique as method",
+          title: "Critical thinking early",
           description:
-            "I challenge solutions early to avoid expensive mistakes later.",
+            "I question assumptions and weak abstractions before they become expensive problems.",
         },
         {
-          title: "Real product focus",
+          title: "Real product awareness",
           description:
-            "I do not separate technical decisions from business impact.",
+            "Technical quality matters when it supports a product that is useful, coherent, and built to last.",
         }
       ]
     },
@@ -202,29 +204,31 @@ export const translations = {
     },
     mindset: {
       eyebrow: "Mentalidad",
-      title: "Me importan los sistemas que resisten el crecimiento.",
+      title: "Construyo pensando en el peso que tendrá el sistema cuando crezca.",
       description:
-        "No me quedo solo en la implementación. Intento entender el sistema completo, cuestionar decisiones de arquitectura y mejorar la estructura antes de que la complejidad crezca.",
+        "Me importa más que simplemente hacer que algo funcione. Intento entender cómo va a evolucionar el sistema, cuestionar decisiones de arquitectura a tiempo y evitar que la complejidad se convierta en deuda estructural.",
+      statementLabel: "Lo que me guía",
+      statement: "La escala no rompe sistemas por sí sola. Las decisiones acumuladas sí.",
       items: [
         {
-          title: "Visión sistémica",
+          title: "Visión de sistema",
           description:
-            "Trabajo entendiendo cómo se conectan lógica, producto y experiencia.",
+            "Veo la lógica, el producto y la experiencia como partes del mismo sistema, no como capas aisladas.",
         },
         {
-          title: "Arquitectura con intención",
+          title: "Arquitectura con propósito",
           description:
-            "Diseño pensando en escala, mantenimiento y claridad desde el inicio.",
+            "Tomo decisiones estructurales pensando en cambio, claridad y mantenimiento desde el inicio.",
         },
         {
-          title: "Crítica como método",
+          title: "Pensamiento crítico temprano",
           description:
-            "Cuestiono soluciones temprano para evitar errores caros después.",
+            "Cuestiono supuestos y abstracciones débiles antes de que se conviertan en problemas caros.",
         },
         {
-          title: "Foco en producto real",
+          title: "Conciencia de producto real",
           description:
-            "No separo las decisiones técnicas del impacto de negocio.",
+            "La calidad técnica importa cuando sostiene un producto útil, coherente y preparado para durar.",
         }
       ]
     },
@@ -361,29 +365,33 @@ export const translations = {
     },
     mindset: {
       eyebrow: "Mentalidade",
-      title: "Eu me importo com sistemas que resistem ao crescimento.",
+      title: "Eu construo pensando no peso que o sistema vai ter quando crescer.",
       description:
-        "Não fico apenas na implementação. Tento entender o sistema completo, questionar decisões de arquitetura e melhorar a estrutura antes que a complexidade cresça.",
+        "Eu me importo com mais do que simplesmente fazer algo funcionar. Tento entender como o sistema vai evoluir, questionar decisões de arquitetura no momento certo e evitar que a complexidade vire dívida estrutural.",
+
+      statementLabel: "Em resumo",
+      statement: "Eu não penso só em fazer funcionar. Eu penso no que acontece quando o sistema cresce.",
+
       items: [
         {
-          title: "Visão sistêmica",
+          title: "Visão de sistema",
           description:
-            "Trabalho entendendo como lógica, produto e experiência se conectam.",
+            "Vejo lógica, produto e experiência como partes do mesmo sistema, não como camadas isoladas.",
         },
         {
-          title: "Arquitetura com intenção",
+          title: "Arquitetura com propósito",
           description:
-            "Projeto pensando em escala, manutenção e clareza desde o início.",
+            "Tomo decisões estruturais pensando em mudança, clareza e manutenção desde o início.",
         },
         {
-          title: "Crítica como método",
+          title: "Pensamento crítico antecipado",
           description:
-            "Questiono soluções cedo para evitar erros caros depois.",
+            "Questiono suposições e abstrações fracas antes que virem problemas caros.",
         },
         {
-          title: "Foco em produto real",
+          title: "Consciência de produto real",
           description:
-            "Não separo decisões técnicas do impacto no negócio.",
+            "Qualidade técnica importa quando sustenta um produto útil, coerente e feito para durar.",
         }
       ]
     },

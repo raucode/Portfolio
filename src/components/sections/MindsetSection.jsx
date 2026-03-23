@@ -5,18 +5,44 @@ import SectionHeading from "../ui/SectionHeading";
 export default function MindsetSection() {
   const { t } = useLanguage();
 
+  const mindset = t?.mindset ?? {};
+  const items = Array.isArray(mindset.items) ? mindset.items : [];
+  const showIntro = Boolean(mindset.statementLabel || mindset.statement);
+
   return (
     <section className="section" id="mindset">
       <Container>
         <SectionHeading
-          eyebrow={t.mindset.eyebrow}
-          title={t.mindset.title}
-          description={t.mindset.description}
+          eyebrow={mindset.eyebrow}
+          title={mindset.title}
+          description={mindset.description}
         />
 
-        <div className="info-grid">
-          {t.mindset.items.map((item) => (
-            <article key={item.title} className="info-card">
+        {showIntro && (
+          <div className="mindset-intro">
+            {mindset.statementLabel && (
+              <span className="mindset-intro__label">
+                {mindset.statementLabel}
+              </span>
+            )}
+
+            {mindset.statement && (
+              <p className="mindset-intro__statement">
+                {mindset.statement}
+              </p>
+            )}
+          </div>
+        )}
+
+        <div className="info-grid mindset-grid">
+          {items.map((item, index) => (
+            <article key={`${item.title}-${index}`} className="info-card mindset-card">
+              <div className="mindset-card__top">
+                <span className="mindset-card__index">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+              </div>
+
               <h3>{item.title}</h3>
               <p>{item.description}</p>
             </article>
