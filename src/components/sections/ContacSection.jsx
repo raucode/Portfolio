@@ -17,11 +17,11 @@ export default function ContactSection() {
           />
 
           <div className="hero__actions">
-            <Button href="mailto:youremail@example.com" variant="primary">
+            <Button href="mailto:raulfigueracode@gmail.com" variant="primary">
               {t.contact.primaryCta}
             </Button>
 
-            <Button href="https://github.com/" variant="secondary">
+            <Button href="https://github.com/raucode" variant="secondary">
               {t.contact.secondaryCta}
             </Button>
           </div>
