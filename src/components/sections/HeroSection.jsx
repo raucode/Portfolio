@@ -14,7 +14,7 @@ export default function HeroSection() {
           <div className="hero__left hero__left--stacked">
             <div className="hero-photo">
               <img
-                src="/media/removebg1.png"
+                src="https://raw.githubusercontent.com/raucode/Portfolio/refs/heads/master/media/removebg1.png"
                 alt="Raúl Figuera"
               />
             </div>
