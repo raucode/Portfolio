@@ -30,23 +30,7 @@ export default function HeroSection() {
               </div>
             </div>
 
-            <div className="hero-mini-info">
-              <div className="hero-mini-info__row hero-mini-info__row--primary">
-                {traits.map((item) => (
-                  <span key={item} className="hero-mini-info__pill hero-mini-info__pill--soft">
-                    {item}
-                  </span>
-                ))}
-              </div>
-
-              <div className="hero-mini-info__row">
-                {chips.map((item) => (
-                  <span key={item} className="hero-mini-info__pill">
-                    {item}
-                  </span>
-                ))}
-              </div>
-            </div>
+            
           </div>
 
           <div className="hero__right">

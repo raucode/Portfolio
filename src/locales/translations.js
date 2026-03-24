@@ -71,39 +71,6 @@ export const translations = {
         }
       ]
     },
-    expertise: {
-      eyebrow: "What I build",
-      title: "Work centered on structure, not just implementation.",
-      description:
-        "I like problems that demand architecture, business logic and clarity across layers.",
-      items: [
-        {
-          title: "Backend systems",
-          description:
-            "Business logic, modular services, repositories and scalable structure."
-        },
-        {
-          title: "Auth & permissions",
-          description:
-            "Access flows, permission models and role systems built for real products."
-        },
-        {
-          title: "Payments & subscriptions",
-          description:
-            "Critical SaaS flows involving billing, webhooks and subscription logic."
-        },
-        {
-          title: "Product-driven frontend",
-          description:
-            "Interfaces connected to real product thinking, not isolated screens."
-        },
-        {
-          title: "Linux & tooling",
-          description:
-            "System customization, workflow design and technical environments."
-        }
-      ]
-    },
     projects: {
       eyebrow: "Projects",
       title: "Selected work with real-world context.",
@@ -172,7 +139,7 @@ export const translations = {
         quote: "(Nunca pares de aprender)",
         compactTitle: "Sistemas, pensamiento de producto y arquitectura limpia.",
         profileName: "Raúl Figuera",
-        profileRole: "Backend-first developer • Product-minded • Full stack",
+        profileRole: "Backend-first developer • Full stack",
         description:
             "Desarrollador full stack con foco en arquitectura backend, visión de producto y bases escalables. Construyo software pensado para crecer, no solo para funcionar.",
         primaryCta: "Ver proyectos",
@@ -184,29 +151,29 @@ export const translations = {
             "Enfoque en sistemas modulares, límites claros y lógica real de producto.",
             items: [
             {
-                label: "Auth",
-                title: "Roles hereditarios"
+                label: "Planeacion",
+                title: "Diagramacion, gestion de datos"
             },
             {
-                label: "Pagos",
-                title: "Suscripciones y cobros"
+                label: "Backend",
+                title: "Estructura, endpoints y datos"
             },
             {
                 label: "Frontend",
-                title: "UI orientada a producto"
+                title: "UI orientada a producto y UX"
             },
             {
                 label: "Tooling",
-                title: "Diseño de entorno Linux"
+                title: "Diseño de entorno desktop"
             }
             ]
         }
     },
     mindset: {
       eyebrow: "Mentalidad",
-      title: "Construyo pensando en el peso que tendrá el sistema cuando crezca.",
+      title: "Construyo pensando en escalar.",
       description:
-        "Me importa más que simplemente hacer que algo funcione. Intento entender cómo va a evolucionar el sistema, cuestionar decisiones de arquitectura a tiempo y evitar que la complejidad se convierta en deuda estructural.",
+        "Me importa mas que algo funcione independientemente del tamano del sistema a que funcione y se rompa 'solo'. Cuestionando decisiones y probando al maximo sistemas para que funcione bien",
       statementLabel: "Lo que me guía",
       statement: "La escala no rompe sistemas por sí sola. Las decisiones acumuladas sí.",
       items: [
@@ -229,39 +196,6 @@ export const translations = {
           title: "Conciencia de producto real",
           description:
             "La calidad técnica importa cuando sostiene un producto útil, coherente y preparado para durar.",
-        }
-      ]
-    },
-    expertise: {
-      eyebrow: "Lo que construyo",
-      title: "Trabajo sobre problemas que exigen estructura, no solo implementación.",
-      description:
-        "Me gustan los problemas que requieren arquitectura, lógica de negocio y claridad entre capas.",
-      items: [
-        {
-          title: "Sistemas backend",
-          description:
-            "Lógica de negocio, servicios modulares, repositorios y estructura escalable."
-        },
-        {
-          title: "Auth y permisos",
-          description:
-            "Flujos de acceso, modelos de permisos y sistemas de roles para productos reales."
-        },
-        {
-          title: "Pagos y suscripciones",
-          description:
-            "Flujos críticos de SaaS con cobros, webhooks y lógica de suscripción."
-        },
-        {
-          title: "Frontend orientado a producto",
-          description:
-            "Interfaces conectadas a lógica real de producto, no pantallas aisladas."
-        },
-        {
-          title: "Linux y tooling",
-          description:
-            "Personalización de sistemas, diseño de flujo de trabajo y entorno técnico."
         }
       ]
     },
@@ -395,39 +329,7 @@ export const translations = {
         }
       ]
     },
-    expertise: {
-      eyebrow: "O que eu construo",
-      title: "Trabalho em problemas que exigem estrutura, não apenas implementação.",
-      description:
-        "Gosto de problemas que pedem arquitetura, lógica de negócio e clareza entre camadas.",
-      items: [
-        {
-          title: "Sistemas backend",
-          description:
-            "Lógica de negócio, serviços modulares, repositórios e estrutura escalável."
-        },
-        {
-          title: "Auth e permissões",
-          description:
-            "Fluxos de acesso, modelos de permissão e sistemas de papéis para produtos reais."
-        },
-        {
-          title: "Pagamentos e assinaturas",
-          description:
-            "Fluxos críticos de SaaS com cobrança, webhooks e lógica de assinatura."
-        },
-        {
-          title: "Frontend orientado a produto",
-          description:
-            "Interfaces conectadas à lógica real do produto, não telas isoladas."
-        },
-        {
-          title: "Linux e tooling",
-          description:
-            "Customização de sistemas, design de workflow e ambiente técnico."
-        }
-      ]
-    },
+
     projects: {
       eyebrow: "Projetos",
       title: "Trabalho selecionado com contexto real.",
