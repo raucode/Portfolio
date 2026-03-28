@@ -1,0 +1,58 @@
+{
+  "slug": "rust-subscription-component",
+  "featured": true,
+  "visible": true,
+  "includeInCv": true,
+  "order": 2,
+  "stack": ["Rust", "Actix Web", "PostgreSQL", "SQLx", "Stripe"],
+  "period": {
+    "start": "2025-07",
+    "end": "2026-03",
+    "current": false
+  },
+  "links": {
+    "github": "https://github.com/raucode/Rust-Suscription-and-plan-Componet",
+    "demo": "",
+    "docs": ""
+  },
+  "media": {
+    "cover": "/project_preview/subscription-component-rust.png",
+    "alt": {
+      "en": "Dashboard preview",
+      "es": "Vista previa del panel",
+      "pt": "Prévia do painel"
+    }
+  },
+  "content": {
+    "en": {
+      "title": "Rust Subscription and Plan Component",
+      "summary": "Backend component for plans, subscriptions and payment flows.",
+      "description": "Built to integrate into SaaS systems and centralize plan management, checkout flow and webhooks.",
+      "highlights": [
+        "FSM-based plan change flow",
+        "Checkout and webhook separation",
+        "Prepared for SaaS integration"
+      ]
+    },
+    "es": {
+      "title": "Rust Subscription and Plan Component",
+      "summary": "Componente backend para planes, suscripciones y flujo de pagos.",
+      "description": "Diseñado para integrarse en sistemas SaaS y centralizar la gestión de planes, checkout y webhooks.",
+      "highlights": [
+        "Flujo de cambio de plan basado en FSM",
+        "Separación entre checkout y webhook",
+        "Preparado para integración en SaaS"
+      ]
+    },
+    "pt": {
+      "title": "Rust Subscription and Plan Component",
+      "summary": "Componente backend para planos, assinaturas e fluxo de pagamentos.",
+      "description": "Projetado para integrar em sistemas SaaS e centralizar gestão de planos, checkout e webhooks.",
+      "highlights": [
+        "Fluxo de mudança de plano com FSM",
+        "Separação entre checkout e webhook",
+        "Preparado para integração em SaaS"
+      ]
+    }
+  }
+}

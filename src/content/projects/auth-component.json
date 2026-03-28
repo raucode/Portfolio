@@ -1,0 +1,58 @@
+{
+  "slug": "rust-auth-multi-usertype",
+  "featured": true,
+  "visible": true,
+  "includeInCv": true,
+  "order": 3,
+  "stack": ["Rust", "Actix Web", "PostgreSQL", "SQLx"],
+  "period": {
+    "start": "2025-07",
+    "end": "2026-03",
+    "current": false
+  },
+  "links": {
+    "github": "https://github.com/raucode/Rust-Auth-System",
+    "demo": "",
+    "docs": ""
+  },
+  "media": {
+    "cover": "/project_preview/auth-system-multirol-rust.png",
+    "alt": {
+      "en": "Multi-user type authentication dashboard preview",
+      "es": "Vista previa del panel de autenticación multi-tipo de usuario",
+      "pt": "Prévia do painel de autenticação multi-tipo de usuário"
+    }
+  },
+  "content": {
+    "en": {
+      "title": "Rust Multi-UserType Auth System",
+      "summary": "Authentication component for SaaS platforms with support for multiple user types in a single system.",
+      "description": "Built in Rust with Actix Web, this authentication component centralizes access control for SaaS platforms and other multi-tenant systems. It supports different user types such as admin, support, client, and client employee within the same architecture, allowing each role to have isolated permissions, flows, and business rules. The system is designed to be extensible, so new user types can be added without rewriting the core authentication logic.",
+      "highlights": [
+        "Single auth system supporting multiple user types",
+        "Role-aware architecture for admin, support, client, and client employee",
+        "Designed for SaaS integration and easy extension"
+      ]
+    },
+    "es": {
+      "title": "Sistema de Autenticación Multi-UserType en Rust",
+      "summary": "Componente de autenticación para plataformas SaaS con soporte para múltiples tipos de usuario en un solo sistema.",
+      "description": "Desarrollado en Rust con Actix Web, este componente centraliza la autenticación y el control de acceso para plataformas SaaS y otros sistemas multi-tenant. Soporta distintos tipos de usuario como admin, soporte, cliente y empleado del cliente dentro de una misma arquitectura, permitiendo manejar permisos, flujos y reglas de negocio diferenciadas según el rol. El sistema está preparado para expandirse fácilmente, de modo que se puedan agregar nuevos tipos de usuario sin reescribir la lógica principal de autenticación.",
+      "highlights": [
+        "Un solo sistema de autenticación para múltiples tipos de usuario",
+        "Arquitectura orientada a roles: admin, soporte, cliente y empleado del cliente",
+        "Preparado para integración en SaaS y expansión sencilla"
+      ]
+    },
+    "pt": {
+      "title": "Sistema de Autenticação Multi-UserType em Rust",
+      "summary": "Componente de autenticação para plataformas SaaS com suporte a múltiplos tipos de usuário em um único sistema.",
+      "description": "Desenvolvido em Rust com Actix Web, este componente centraliza a autenticação e o controle de acesso para plataformas SaaS e outros sistemas multi-tenant. Ele suporta diferentes tipos de usuário, como admin, suporte, cliente e funcionário do cliente, dentro da mesma arquitetura, permitindo regras, permissões e fluxos específicos por perfil. O sistema foi projetado para ser expansível, facilitando a adição de novos tipos de usuário sem reescrever a lógica principal de autenticação.",
+      "highlights": [
+        "Um único sistema de autenticação para múltiplos tipos de usuário",
+        "Arquitetura orientada por papéis: admin, suporte, cliente e funcionário do cliente",
+        "Preparado para integração em SaaS e expansão fácil"
+      ]
+    }
+  }
+}

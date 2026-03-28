@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="navbar__inner navbar__inner--refined">
           <div className="navbar__left">
             <a href="#top" className="navbar__brand">
-              <span className="navbar__brand-mark">RF</span>
+              <img src="/thumbnail.png" alt="RF" className="navbar__brand-mark" />
               <span className="navbar__brand-text">Raúl Figuera</span>
             </a>
           </div>

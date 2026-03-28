@@ -1,0 +1,58 @@
+{
+  "slug": "flappy-duck",
+  "featured": true,
+  "visible": true,
+  "includeInCv": true,
+  "order": 1,
+  "stack": ["Unity", "C#"],
+  "period": {
+    "start": "2025-07",
+    "end": "2026-03",
+    "current": false
+  },
+  "links": {
+    "github": "https://github.com/raucode/FlappyDuck",
+    "demo": "https://flappy-duck-landing-2ccoa84gn-raucodes-projects.vercel.app/",
+    "docs": ""
+  },
+  "media": {
+    "cover": "/project_preview/flappy-duck-landing-page.png",
+    "alt": {
+      "en": "Flappy Duck gameplay preview",
+      "es": "Vista previa del gameplay de Flappy Duck",
+      "pt": "Prévia da jogabilidade de Flappy Duck"
+    }
+  },
+  "content": {
+    "en": {
+      "title": "Flappy Duck",
+      "summary": "A Flappy Bird-inspired game built in Unity, featuring core gameplay, score tracking, pause system, and visual customization options.",
+      "description": "Flappy Duck is a variation of the classic Flappy Bird concept developed in Unity. The project includes the main gameplay loop, score counting, pause and resume controls, and a main menu. It also adds customization features such as skin selection and background selection. The obstacle system is based on prefabs spawned from dynamic positions, while off-screen cleanup is handled through death zones that remove unused objects efficiently. The floor uses a repositioning mechanic to simulate an infinite environment. Development is currently paused, but the project already has a functional core and a solid structure for future expansion.",
+      "highlights": [
+        "Core Flappy-style gameplay fully implemented",
+        "Skin and background selection system",
+        "Prefab spawning, cleanup zones, and infinite floor illusion"
+      ]
+    },
+    "es": {
+      "title": "Flappy Duck",
+      "summary": "Juego inspirado en Flappy Bird desarrollado en Unity, con mecánica principal funcional, sistema de puntaje, pausa y opciones de personalización visual.",
+      "description": "Flappy Duck es una variación del concepto clásico de Flappy Bird desarrollada en Unity. El proyecto incluye el bucle principal de juego, conteo de puntos, sistema de pausa y reanudación, además de un menú principal. También incorpora opciones de personalización como selección de skins y selección de fondos. El sistema de obstáculos está construido con prefabs que se generan desde zonas de spawn variables, mientras que la limpieza de objetos fuera de pantalla se maneja mediante zonas de muerte que eliminan los prefabs cuando ya no se necesitan. El piso utiliza una mecánica de reposicionamiento para simular un escenario infinito. Actualmente el desarrollo está pausado, pero la base jugable y la estructura principal del proyecto ya están implementadas.",
+      "highlights": [
+        "Mecánica principal estilo Flappy completamente funcional",
+        "Sistema de selección de skins y fondos",
+        "Uso de prefabs, zonas de eliminación y piso infinito simulado"
+      ]
+    },
+    "pt": {
+      "title": "Flappy Duck",
+      "summary": "Jogo inspirado em Flappy Bird desenvolvido na Unity, com mecânica principal funcional, sistema de pontuação, pausa e opções de personalização visual.",
+      "description": "Flappy Duck é uma variação do conceito clássico de Flappy Bird desenvolvida na Unity. O projeto inclui o loop principal de gameplay, contagem de pontos, sistema de pausa e retomada, além de um menu principal. Também possui opções de personalização como seleção de skins e seleção de fundos. O sistema de obstáculos é baseado em prefabs gerados a partir de zonas de spawn variáveis, enquanto a remoção de objetos fora da tela é feita por zonas de descarte que eliminam os prefabs quando não são mais necessários. O chão usa uma mecânica de reposicionamento para simular um cenário infinito. Atualmente o desenvolvimento está pausado, mas a base jogável e a estrutura principal do projeto já estão implementadas.",
+      "highlights": [
+        "Mecânica principal estilo Flappy totalmente funcional",
+        "Sistema de seleção de skins e fundos",
+        "Uso de prefabs, zonas de descarte e chão infinito simulado"
+      ]
+    }
+  }
+}

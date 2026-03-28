@@ -1,0 +1,52 @@
+{
+  "content": {
+    "en": {
+      "title": "I build with the future weight of the system in mind.",
+      "description": "I care about more than getting things to work. I try to understand how a system will evolve and challenge architectural decisions early.",
+      "statementLabel": "What guides me",
+      "statement": "Scale does not break systems on its own. Accumulated decisions do.",
+      "items": [
+        {
+          "title": "System perspective",
+          "description": "I look at logic, product and experience as parts of the same system."
+        },
+        {
+          "title": "Architecture on purpose",
+          "description": "I make structural decisions with change, clarity and maintainability in mind."
+        }
+      ]
+    },
+    "es": {
+      "title": "Construyo pensando en el peso futuro del sistema.",
+      "description": "Me importa más que algo simplemente funcione. Intento entender cómo evoluciona el sistema y cuestionar decisiones de arquitectura temprano.",
+      "statementLabel": "Lo que me guía",
+      "statement": "La escala no rompe sistemas por sí sola. Las decisiones acumuladas sí.",
+      "items": [
+        {
+          "title": "Visión de sistema",
+          "description": "Veo la lógica, el producto y la experiencia como partes del mismo sistema."
+        },
+        {
+          "title": "Arquitectura con propósito",
+          "description": "Tomo decisiones estructurales pensando en cambio, claridad y mantenimiento."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Eu construo pensando no peso futuro do sistema.",
+      "description": "Eu me importo com mais do que simplesmente fazer algo funcionar. Tento entender como o sistema evolui e questionar decisões de arquitetura cedo.",
+      "statementLabel": "Em resumo",
+      "statement": "A escala não quebra sistemas sozinha. Decisões acumuladas quebram.",
+      "items": [
+        {
+          "title": "Visão de sistema",
+          "description": "Vejo lógica, produto e experiência como partes do mesmo sistema."
+        },
+        {
+          "title": "Arquitetura com propósito",
+          "description": "Tomo decisões estruturais pensando em mudança, clareza e manutenção."
+        }
+      ]
+    }
+  }
+}

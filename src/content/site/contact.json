@@ -1,0 +1,25 @@
+{
+  "email": "raulfigueracode@gmail.com",
+  "github": "https://github.com/raucode",
+  "linkedin": "",
+  "content": {
+    "en": {
+      "title": "Contact",
+      "description": "If you care about backend architecture, product thinking and systems that scale, we should talk.",
+      "primaryCta": "Send email",
+      "secondaryCta": "GitHub"
+    },
+    "es": {
+      "title": "Contacto",
+      "description": "Si te importan la arquitectura backend, la visión de producto y los sistemas que escalan, deberíamos hablar.",
+      "primaryCta": "Enviar email",
+      "secondaryCta": "GitHub"
+    },
+    "pt": {
+      "title": "Contato",
+      "description": "Se você valoriza arquitetura backend, visão de produto e sistemas que escalam, vale a pena conversar.",
+      "primaryCta": "Enviar email",
+      "secondaryCta": "GitHub"
+    }
+  }
+}

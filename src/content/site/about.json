@@ -1,0 +1,25 @@
+{
+  "public": {
+    "name": "Raúl Figuera",
+    "location": "Brazil",
+    "roles": ["Backend", "Frontend", "System Design"],
+    "interests": ["software architecture", "product thinking", "game development"]
+  },
+  "content": {
+    "en": {
+      "title": "About me",
+      "description": "I move across backend, frontend and design when needed, but the center stays the same: understanding the full system to make better decisions.",
+      "extra": "My profile blends technical thinking, visual sensitivity and product awareness."
+    },
+    "es": {
+      "title": "Sobre mí",
+      "description": "Me muevo entre backend, frontend y diseño cuando hace falta, pero el centro es el mismo: entender el sistema completo para tomar mejores decisiones.",
+      "extra": "Mi perfil mezcla pensamiento técnico, sensibilidad visual y visión de producto."
+    },
+    "pt": {
+      "title": "Sobre mim",
+      "description": "Transito entre backend, frontend e design quando necessário, mas o centro é o mesmo: entender o sistema completo para tomar decisões melhores.",
+      "extra": "Meu perfil mistura pensamento técnico, sensibilidade visual e visão de produto."
+    }
+  }
+}

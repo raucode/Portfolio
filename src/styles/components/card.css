@@ -1,0 +1,85 @@
+.info-card,
+.project-card,
+.about-box,
+.contact-box {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.07),
+    rgba(255, 255, 255, 0.04)
+  );
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.info-card {
+  padding: 1.5rem;
+}
+
+.info-card h3,
+.project-card h3 {
+  margin: 0 0 0.75rem;
+}
+
+.info-card p,
+.project-card p,
+.about-box__extra {
+  margin: 0;
+  color: var(--text-soft);
+  line-height: 1.7;
+}
+
+.project-card {
+  padding: 1.6rem;
+  display: grid;
+  gap: 1.4rem;
+}
+
+.project-card__category {
+  display: inline-flex;
+  margin-bottom: 0.85rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #bac5da;
+}
+
+.project-card__title {
+  font-size: 1.45rem;
+  line-height: 1.15;
+}
+
+.project-card__description {
+  margin-top: 0.8rem;
+}
+
+.project-card__subtitle {
+  margin: 0 0 0.85rem;
+  font-size: 0.95rem;
+  color: #dce4f4;
+}
+
+.project-card__list {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--text-soft);
+  display: grid;
+  gap: 0.55rem;
+}
+
+.project-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.project-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.about-box,
+.contact-box {
+  padding: 2rem;
+}

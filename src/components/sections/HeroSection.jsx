@@ -4,9 +4,6 @@ import Container from "../ui/Container";
 export default function HeroSection() {
   const { t } = useLanguage();
 
-  const chips = ["Rust", "React", "Linux"];
-  const traits = ["Backend-first", "Product-minded", "ES · EN · PT"];
-
   return (
     <section className="hero section" id="top">
       <Container>

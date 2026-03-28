@@ -1,0 +1,54 @@
+{
+  "name": "Raúl Figuera",
+  "firstName": "Raúl",
+  "lastName": "Figuera",
+  "role": {
+    "en": "Backend-first developer • Product-minded • Full stack",
+    "es": "Desarrollador backend-first • Visión de producto • Full stack",
+    "pt": "Desenvolvedor backend-first • Visão de produto • Full stack"
+  },
+  "hero": {
+    "en": {
+      "quote": "(Never stop learning)",
+      "compactTitle": "Systems, product thinking and clean architecture.",
+      "description": "Full stack developer focused on backend architecture, product thinking and scalable foundations.",
+      "panel": {
+        "label": "System thinking",
+        "title": "Architecture first",
+        "description": "Focused on modular systems, clear boundaries and real product logic.",
+        "items": [
+          { "label": "Auth", "title": "Role inheritance" },
+          { "label": "Billing", "title": "Subscriptions & payments" }
+        ]
+      }
+    },
+    "es": {
+      "quote": "(Nunca pares de aprender)",
+      "compactTitle": "Sistemas, pensamiento de producto y arquitectura limpia.",
+      "description": "Desarrollador full stack con foco en arquitectura backend, visión de producto y bases escalables.",
+      "panel": {
+        "label": "Pensamiento sistémico",
+        "title": "Arquitectura primero",
+        "description": "Enfoque en sistemas modulares, límites claros y lógica real de producto.",
+        "items": [
+          { "label": "Planeación", "title": "Diagramación y gestión de datos" },
+          { "label": "Backend", "title": "Estructura, endpoints y datos" }
+        ]
+      }
+    },
+    "pt": {
+      "quote": "(Nunca pare de aprender)",
+      "compactTitle": "Sistemas, pensamento de produto e arquitetura limpa.",
+      "description": "Desenvolvedor full stack com foco em arquitetura backend, visão de produto e bases escaláveis.",
+      "panel": {
+        "label": "Pensamento sistêmico",
+        "title": "Arquitetura primeiro",
+        "description": "Foco em sistemas modulares, limites claros e lógica real de produto.",
+        "items": [
+          { "label": "Auth", "title": "Papéis hereditários" },
+          { "label": "Pagamentos", "title": "Assinaturas e cobrança" }
+        ]
+      }
+    }
+  }
+}

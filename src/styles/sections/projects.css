@@ -1,0 +1,259 @@
+/* --- Projects Showcase: Liquid Glass Style --- */
+
+.projects-showcase__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: var(--space-8);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  /* El padding extra evita que las cards se corten al hacer zoom */
+  padding: var(--space-10) var(--space-4);
+  overflow: visible; 
+}
+
+.projects-showcase__card {
+  position: relative;
+  height: 100%;
+  /*will-change optimiza la animación para la GPU */
+  will-change: transform;
+  transition: transform var(--transition-base), z-index 0s;
+  z-index: 1;
+}
+
+.projects-showcase__card:hover {
+  /* Escala sutil para evitar desenfoque de fuentes */
+  transform: translateY(-8px) scale(1.02);
+  /* Asegura que la card activa siempre esté por encima de las otras */
+  z-index: 10;
+}
+
+/* Efecto Glow Líquido */
+.projects-showcase__card-glow {
+  position: absolute;
+  inset: -10px;
+  background: radial-gradient(circle at 50% 50%, var(--accent) 0%, transparent 70%);
+  filter: blur(30px);
+  opacity: 0;
+  transition: opacity var(--transition-base);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.projects-showcase__card:hover .projects-showcase__card-glow {
+  opacity: 0.25;
+}
+
+/* Shell - Contenedor con Glassmorphism Optimizado */
+.projects-showcase__card-shell {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--panel);
+  /* 5px de blur para un rendimiento máximo en scroll */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  /* Previene parpadeos en Chrome durante animaciones */
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.projects-showcase__card:hover .projects-showcase__card-shell {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(178, 109, 255, 0.3);
+}
+
+/* Topbar - UI de Sistema */
+.projects-showcase__card-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-6);
+  background: var(--bg-soft);
+  border-bottom: 1px solid var(--border);
+}
+
+.projects-showcase__card-dots { 
+  display: flex; 
+  gap: 6px; 
+}
+
+.projects-showcase__card-dots span { 
+  width: 8px; 
+  height: 8px; 
+  border-radius: 50%; 
+  background: var(--border); 
+  transition: background var(--transition-base);
+}
+
+.projects-showcase__card:hover .dot-red { background: #ff5f57; }
+.projects-showcase__card:hover .dot-amber { background: #ffbd2e; }
+.projects-showcase__card:hover .dot-green { background: #28c940; }
+
+.projects-showcase__card-pill { 
+  width: 32px; 
+  height: 4px; 
+  background: var(--border); 
+  border-radius: var(--radius-pill); 
+  opacity: 0.5; 
+}
+
+/* Media Section */
+.projects-showcase__media { 
+  position: relative; 
+  height: 180px; 
+  overflow: hidden;
+  background: var(--bg); 
+}
+
+.projects-showcase__image { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  opacity: 0; /* Por defecto oculta para el estado de carga */
+  transition: transform 0.6s ease, opacity 0.5s ease;
+  will-change: transform;
+}
+
+.projects-showcase__image.is-visible {
+  opacity: 0.6;
+}
+
+.projects-showcase__card:hover .projects-showcase__image { 
+  transform: scale(1.1); 
+  opacity: 0.9; 
+}
+
+.projects-showcase__media-overlay { 
+  position: absolute; 
+  inset: 0; 
+  background: linear-gradient(to top, var(--bg), transparent); 
+  pointer-events: none;
+}
+
+/* Card Content Area */
+.projects-showcase__card-content {
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.projects-showcase__card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-4);
+}
+
+.projects-showcase__badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(178, 109, 255, 0.1);
+  padding: 4px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(178, 109, 255, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.projects-showcase__icon-btn {
+  display: flex;
+  padding: var(--space-2);
+  background: var(--bg-soft);
+  color: var(--text-soft);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  transition: all var(--transition-fast);
+}
+
+.projects-showcase__icon-btn:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.projects-showcase__card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: var(--space-2);
+  /* Truncado para mantener el grid alineado */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.projects-showcase__card-description {
+  font-size: 0.95rem;
+  color: var(--text-soft);
+  line-height: 1.6;
+  margin-bottom: var(--space-6);
+  /* Clamp para evitar que cards tengan alturas diferentes */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Stack Section */
+.projects-showcase__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: auto;
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--border);
+}
+
+.projects-showcase__stack-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 4px 10px;
+  background: var(--bg-soft);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  transition: border-color var(--transition-fast);
+}
+
+.projects-showcase__stack-item:hover {
+  border-color: var(--accent);
+}
+
+.projects-showcase__stack-icon { color: var(--accent); }
+.projects-showcase__stack-name { font-size: 11px; font-weight: 600; color: var(--text-soft); text-transform: uppercase; }
+
+/* Skeleton / Loader States */
+.projects-showcase__skeleton {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-soft);
+  z-index: 2;
+}
+
+.projects-showcase__skeleton.is-loading {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.03) 25%,
+    rgba(255, 255, 255, 0.08) 50%,
+    rgba(255, 255, 255, 0.03) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite linear;
+}
+
+@keyframes skeleton-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}

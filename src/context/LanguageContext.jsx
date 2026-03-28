@@ -1,45 +1,43 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import { translations } from "../locales/translations";
+import {
+  DEFAULT_LANGUAGE,
+  SUPPORTED_LANGUAGES,
+  detectBrowserLanguage,
+  normalizeLanguage,
+} from "../lib/i18n/language";
 
-const LanguageContext = createContext();
+const STORAGE_KEY = "site-language";
 
-function detectBrowserLanguage() {
-  const browserLanguages = navigator.languages?.length
-    ? navigator.languages
-    : [navigator.language || "en"];
+const LanguageContext = createContext(null);
 
-  const normalized = browserLanguages.map((lang) => lang.toLowerCase());
+function getInitialLanguage() {
+  if (typeof window === "undefined") return DEFAULT_LANGUAGE;
 
-  for (const lang of normalized) {
-    if (lang.startsWith("es")) return "es";
-    if (lang.startsWith("pt")) return "pt";
-    if (lang.startsWith("en")) return "en";
-  }
+  const saved = window.localStorage.getItem(STORAGE_KEY);
+  if (saved) return normalizeLanguage(saved);
 
-  return "en";
+  return detectBrowserLanguage();
 }
 
 export function LanguageProvider({ children }) {
-  const [language, setLanguage] = useState(() => {
-    const savedLanguage = localStorage.getItem("language");
-
-    if (savedLanguage && ["en", "es", "pt"].includes(savedLanguage)) {
-      return savedLanguage;
-    }
-
-    return detectBrowserLanguage();
-  });
+  const [language, setLanguageState] = useState(getInitialLanguage);
 
   useEffect(() => {
-    localStorage.setItem("language", language);
+    window.localStorage.setItem(STORAGE_KEY, language);
     document.documentElement.lang = language;
   }, [language]);
+
+  function setLanguage(nextLanguage) {
+    setLanguageState(normalizeLanguage(nextLanguage));
+  }
 
   const value = useMemo(() => {
     return {
       language,
       setLanguage,
-      t: translations[language],
+      supportedLanguages: SUPPORTED_LANGUAGES,
+      t: translations[language] || translations[DEFAULT_LANGUAGE],
     };
   }, [language]);
 
@@ -54,7 +52,7 @@ export function useLanguage() {
   const context = useContext(LanguageContext);
 
   if (!context) {
-    throw new Error("useLanguage must be used within a LanguageProvider");
+    throw new Error("useLanguage must be used inside LanguageProvider");
   }
 
   return context;

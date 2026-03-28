@@ -1,31 +1,35 @@
 import { useLanguage } from "../../context/LanguageContext";
-import Container from "../ui/Container";
-import SectionHeading from "../ui/SectionHeading";
-import ProjectCard from "../ui/ProjectCard";
-import projects from "../../data/projects.json";
+import { useProjects } from "../../lib/content/useContent";
+import ProjectShowcaseCard from "../ui/ProjectShowcaseCard";
+import "../../styles/sections/projects.css";
 
 export default function ProjectsSection() {
   const { t } = useLanguage();
+  const projects = useProjects();
+
+  const visibleProjects = projects
+    ?.filter((project) => project.visible)
+    ?.sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
+
+  if (!visibleProjects?.length) return null;
 
   return (
-    <section className="section" id="projects">
-      <Container>
-        <SectionHeading
-          eyebrow={t.projects.eyebrow}
-          title={t.projects.title}
-          description={t.projects.description}
-        />
+    <section className="section projects-showcase" id="projects">
+      <div className="container projects-showcase__container">
+        <div className="projects-showcase__intro">
+          <p className="projects-showcase__eyebrow">{t.projects.eyebrow}</p>
+          <h2 className="projects-showcase__title">{t.projects.title}</h2>
+          <p className="projects-showcase__description">
+            {t.projects.description}
+          </p>
+        </div>
 
-        <div className="projects-grid">
-          {projects.map((project) => (
-            <ProjectCard
-              key={project.id}
-              project={project}
-              labels={t.projects.labels}
-            />
+        <div className="projects-showcase__grid">
+          {visibleProjects.map((project) => (
+            <ProjectShowcaseCard key={project.slug} project={project} />
           ))}
         </div>
-      </Container>
+      </div>
     </section>
   );
 }

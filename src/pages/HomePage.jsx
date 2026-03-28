@@ -10,9 +10,9 @@ export default function HomePage() {
   return (
     <MainLayout>
       <HeroSection />
-      <MindsetSection />
       <ProjectsSection />
       <StackSection />
+      <MindsetSection />
       <AboutSection />
       <ContactSection />
     </MainLayout>
