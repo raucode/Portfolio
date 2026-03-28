@@ -2,58 +2,112 @@
   "content": {
     "en": {
       "eyebrow": "Stack",
-      "title": "Technology in service of solid systems.",
-      "description": "Tools matter when they support long-term structure, clarity and execution.",
+      "title": "Technical areas I work in and the tools I use to build real solutions.",
+      "description": "My stack is not just a list of technologies. It shows how I work across backend systems, product interfaces, technical planning, automation and Linux-based environments with a practical and structured mindset.",
       "items": [
         {
-          "title": "Backend",
-          "description": "Rust, Actix Web, APIs, services, repos and modular architecture."
+          "title": "Backend Engineering",
+          "icon": "/stack_icons/backend.png",
+          "description": "I build backend systems with a strong focus on architecture, consistency, maintainability and clear service boundaries.",
+          "tech": ["Rust", "Actix Web", "PostgreSQL", "SQLx", "OpenAPI", "Stripe"]
         },
         {
-          "title": "Frontend",
-          "description": "React, Redux Toolkit, component structure and product-driven UI."
+          "title": "Systems & Linux",
+          "icon": "/stack_icons/linux.png",
+          "description": "I work on Linux-based solutions and custom environments, including preconfigured setups designed to reduce friction and improve the user experience.",
+          "tech": ["Linux", "Arch Linux", "Hyprland", "Bash", "Zsh", "Waybar", "SDDM"]
         },
         {
-          "title": "Tooling",
-          "description": "Linux, Arch, Hyprland, workflow customization and system-level thinking."
+          "title": "Frontend & Product UI",
+          "icon": "/stack_icons/frontend.png",
+          "description": "I turn technical structure into interfaces that feel clear, usable and product-oriented without losing architectural clarity underneath.",
+          "tech": ["React", "Redux Toolkit", "Tailwind CSS", "TypeScript", "JavaScript", "Vite", "Angular"]
+        },
+        {
+          "title": "Technical Planning",
+          "icon": "/stack_icons/planning.png",
+          "description": "Before building, I map flows, structure ideas and define technical direction through diagrams, contracts and visual planning tools.",
+          "tech": ["draw.io", "Miro", "OpenAPI", "Markdown", "Technical Docs"]
+        },
+        {
+          "title": "Automation & Tooling",
+          "icon": "/stack_icons/automation.png",
+          "description": "I create internal scripts and support tools to automate repetitive work, generate reports and improve real workflows.",
+          "tech": ["Python", "Google Apps Script", "Notion", "ClickUp", "Trello"]
         }
       ]
     },
     "es": {
       "eyebrow": "Stack",
-      "title": "Tecnología al servicio de sistemas sólidos.",
-      "description": "Las herramientas importan cuando sostienen estructura, claridad y ejecución a largo plazo.",
+      "title": "Áreas técnicas en las que trabajo y herramientas que uso para construir soluciones reales.",
+      "description": "Mi stack no es solo una lista de tecnologías. Muestra cómo trabajo entre sistemas backend, interfaces de producto, planificación técnica, automatización y entornos basados en Linux con una mentalidad práctica y estructurada.",
       "items": [
         {
-          "title": "Backend",
-          "description": "Rust, Actix Web, APIs, servicios, repositorios y arquitectura modular."
+          "title": "Ingeniería Backend",
+          "icon": "/stack_icons/backend.png",
+          "description": "Construyo sistemas backend con un enfoque fuerte en arquitectura, consistencia, mantenibilidad y límites claros entre servicios.",
+          "tech": ["Rust", "Actix Web", "PostgreSQL", "SQLx", "OpenAPI", "Stripe"]
         },
         {
-          "title": "Frontend",
-          "description": "React, Redux Toolkit, estructura de componentes y UI orientada a producto."
+          "title": "Sistemas y Linux",
+          "icon": "/stack_icons/linux.png",
+          "description": "Trabajo en soluciones sobre Linux y entornos personalizados, incluyendo experiencias preconfiguradas pensadas para reducir fricción y mejorar la experiencia del usuario.",
+          "tech": ["Linux", "Arch Linux", "Hyprland", "Bash", "Zsh", "Waybar", "SDDM"]
         },
         {
-          "title": "Tooling",
-          "description": "Linux, Arch, Hyprland, personalización del workflow y pensamiento a nivel sistema."
+          "title": "Frontend y UI de Producto",
+          "icon": "/stack_icons/frontend.png",
+          "description": "Convierto estructura técnica en interfaces claras, usables y orientadas a producto, sin perder claridad arquitectónica por debajo.",
+          "tech": ["React", "Redux Toolkit", "Tailwind CSS", "TypeScript", "JavaScript", "Vite", "Angular"]
+        },
+        {
+          "title": "Planificación Técnica",
+          "icon": "/stack_icons/planning.png",
+          "description": "Antes de construir, mapeo flujos, estructuro ideas y defino dirección técnica mediante diagramas, contratos y herramientas de planificación visual.",
+          "tech": ["draw.io", "Miro", "OpenAPI", "Markdown", "Technical Docs"]
+        },
+        {
+          "title": "Automatización y Tooling",
+          "icon": "/stack_icons/automation.png",
+          "description": "Creo scripts internos y herramientas de apoyo para automatizar trabajo repetitivo, generar reportes y mejorar flujos de trabajo reales.",
+          "tech": ["Python", "Google Apps Script", "Notion", "ClickUp", "Trello"]
         }
       ]
     },
     "pt": {
       "eyebrow": "Stack",
-      "title": "Tecnologia a serviço de sistemas sólidos.",
-      "description": "Ferramentas importam quando sustentam estrutura, clareza e execução no longo prazo.",
+      "title": "Áreas técnicas em que atuo e ferramentas que uso para construir soluções reais.",
+      "description": "Meu stack não é apenas uma lista de tecnologias. Ele mostra como eu trabalho com sistemas backend, interfaces de produto, planejamento técnico, automação e ambientes baseados em Linux com uma mentalidade prática e estruturada.",
       "items": [
         {
-          "title": "Backend",
-          "description": "Rust, Actix Web, APIs, serviços, repositórios e arquitetura modular."
+          "title": "Engenharia Backend",
+          "icon": "/stack_icons/backend.png",
+          "description": "Construo sistemas backend com foco forte em arquitetura, consistência, manutenibilidade e limites claros entre serviços.",
+          "tech": ["Rust", "Actix Web", "PostgreSQL", "SQLx", "OpenAPI", "Stripe"]
         },
         {
-          "title": "Frontend",
-          "description": "React, Redux Toolkit, estrutura de componentes e UI orientada a produto."
+          "title": "Sistemas e Linux",
+          "icon": "/stack_icons/linux.png",
+          "description": "Trabalho em soluções sobre Linux e ambientes personalizados, incluindo experiências pré-configuradas pensadas para reduzir atrito e melhorar a experiência do usuário.",
+          "tech": ["Linux", "Arch Linux", "Hyprland", "Bash", "Zsh", "Waybar", "SDDM"]
         },
         {
-          "title": "Tooling",
-          "description": "Linux, Arch, Hyprland, customização de workflow e pensamento em nível de sistema."
+          "title": "Frontend e UI de Produto",
+          "icon": "/stack_icons/frontend.png",
+          "description": "Transformo estrutura técnica em interfaces claras, usáveis e orientadas a produto, sem perder clareza arquitetural por trás.",
+          "tech": ["React", "Redux Toolkit", "Tailwind CSS", "TypeScript", "JavaScript", "Vite", "Angular"]
+        },
+        {
+          "title": "Planejamento Técnico",
+          "icon": "/stack_icons/planning.png",
+          "description": "Antes de construir, mapeio fluxos, estruturo ideias e defino direção técnica por meio de diagramas, contratos e ferramentas de planejamento visual.",
+          "tech": ["draw.io", "Miro", "OpenAPI", "Markdown", "Technical Docs"]
+        },
+        {
+          "title": "Automação e Tooling",
+          "icon": "/stack_icons/automation.png",
+          "description": "Crio scripts internos e ferramentas de apoio para automatizar trabalho repetitivo, gerar relatórios e melhorar fluxos de trabalho reais.",
+          "tech": ["Python", "Google Apps Script", "Notion", "ClickUp", "Trello"]
         }
       ]
     }
