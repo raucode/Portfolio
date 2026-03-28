@@ -26,6 +26,10 @@ export default function ContactSection() {
             <Button href={contact.github} variant="secondary">
               {contact.secondaryCta}
             </Button>
+
+            <Button href="/resume" variant="secondary">
+              CV Export
+            </Button>
           </div>
         </div>
       </Container>

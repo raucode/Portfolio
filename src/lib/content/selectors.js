@@ -69,30 +69,80 @@ export function getFeaturedProjects(language) {
 
 export function getCvData(language) {
   const { cv = {} } = loadSiteContent();
+
   const profile = getProfile(language);
   const about = getAbout(language);
+  const contact = getContact(language);
+  const stack = getStack(language);
+
   const localizedCv = getLocalizedValue(cv.content, language) || {};
+  const settings = cv.settings || {};
+  const sections = localizedCv.sections || {};
+
+  const maxProjects =
+    typeof settings.maxProjects === "number" ? settings.maxProjects : 4;
+
+  const includeAboutSummary = settings.includeAboutSummary !== false;
+  const includeStack = settings.includeStack !== false;
+  const includeContact = settings.includeContact !== false;
 
   const projects = getProjects(language)
     .filter((project) => project.includeInCv)
-    .slice(0, cv.settings?.maxProjects || 4);
+    .slice(0, maxProjects);
+
+  const summaryCandidates = [
+    localizedCv.summary,
+    includeAboutSummary ? about.summary : "",
+    includeAboutSummary ? about.description : "",
+    includeAboutSummary ? about.paragraph : "",
+    includeAboutSummary ? about.text : "",
+  ];
+
+  const summary = summaryCandidates.find(
+    (value) => typeof value === "string" && value.trim().length > 0
+  ) || "";
 
   return {
-    title: localizedCv.title || "CV",
+    meta: {
+      language,
+      title: localizedCv.title || "CV",
+    },
+    settings: {
+      maxProjects,
+      includeAboutSummary,
+      includeStack,
+      includeContact,
+      ...settings,
+    },
+    sections: {
+      summary: sections.summary || "Summary",
+      projects: sections.projects || "Projects",
+      stack: sections.stack || "Stack",
+      contact: sections.contact || "Contact",
+      ...sections,
+    },
     basics: {
       name: profile.name || "",
+      firstName: profile.firstName || "",
+      lastName: profile.lastName || "",
       role: profile.role || "",
-      email: cv.basics?.email || "",
+      email: cv.basics?.email || contact.email || "",
       website: cv.basics?.website || "",
-      github: cv.basics?.github || "",
-      linkedin: cv.basics?.linkedin || "",
+      github: cv.basics?.github || contact.github || "",
+      linkedin: cv.basics?.linkedin || contact.linkedin || "",
       location: cv.basics?.location || "",
     },
-    summary:
-      localizedCv.summary ||
-      about.paragraph ||
-      about.description ||
-      "",
+    summary,
     projects,
+    stack: includeStack ? safeArray(stack.items) : [],
+    contact: includeContact
+      ? {
+          email: cv.basics?.email || contact.email || "",
+          github: cv.basics?.github || contact.github || "",
+          linkedin: cv.basics?.linkedin || contact.linkedin || "",
+          website: cv.basics?.website || "",
+          location: cv.basics?.location || "",
+        }
+      : null,
   };
 }

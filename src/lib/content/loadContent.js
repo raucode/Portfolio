@@ -9,8 +9,10 @@ const projectModules = import.meta.glob("../../content/projects/*.json", {
   import: "default",
 });
 
+const projects = Object.values(projectModules);
+
 export function loadProjects() {
-  return Object.values(projectModules);
+  return projects;
 }
 
 export function loadSiteContent() {
@@ -20,6 +22,6 @@ export function loadSiteContent() {
     stack,
     contact,
     cv,
-    projects: loadProjects(),
+    projects,
   };
 }

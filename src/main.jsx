@@ -22,6 +22,7 @@ import "./styles/sections/about.css";
 import "./styles/sections/configs.css";
 import "./styles/sections/contact.css";
 import "./styles/sections/hero.css";
+import "./styles/sections/cv.css"
 import "./styles/sections/projects.css";
 import "./styles/sections/stack.css";
 

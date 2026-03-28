@@ -1,27 +1,45 @@
 {
-  "basics": {
-    "email": "raulfigueracode@gmail.com",
-    "website": "https://portfolio-omega-ten-kgxcrd4iqv.vercel.app/",
-    "github": "https://github.com/raucode",
-    "linkedin": "",
-    "location": "Brazil"
-  },
   "settings": {
     "maxProjects": 4,
-    "includeAboutSummary": true
+    "includeAboutSummary": true,
+    "includeStack": true,
+    "includeContact": true,
+    "selectedProjectSlugs": [
+      "auth-component",
+      "rust-subscription-component",
+      "unity-flappy-duck"
+    ]
   },
   "content": {
     "en": {
       "title": "Resume",
-      "summary": "Backend-first full stack developer focused on scalable systems, product thinking and clean architecture."
+      "summary": "Backend-first full stack developer focused on scalable systems, product thinking and clean architecture.",
+      "sections": {
+        "summary": "Summary",
+        "projects": "Projects",
+        "stack": "Stack",
+        "contact": "Contact"
+      }
     },
     "es": {
       "title": "Currículum",
-      "summary": "Desarrollador full stack con foco backend, sistemas escalables, visión de producto y arquitectura limpia."
+      "summary": "Desarrollador full stack con foco backend, sistemas escalables, visión de producto y arquitectura limpia.",
+      "sections": {
+        "summary": "Resumen",
+        "projects": "Proyectos",
+        "stack": "Tecnologías",
+        "contact": "Contacto"
+      }
     },
     "pt": {
       "title": "Currículo",
-      "summary": "Desenvolvedor full stack com foco backend, sistemas escaláveis, visão de produto e arquitetura limpa."
+      "summary": "Desenvolvedor full stack com foco backend, sistemas escaláveis, visão de produto e arquitetura limpa.",
+      "sections": {
+        "summary": "Resumo",
+        "projects": "Projetos",
+        "stack": "Tecnologias",
+        "contact": "Contato"
+      }
     }
   }
 }

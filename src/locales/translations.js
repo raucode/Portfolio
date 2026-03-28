@@ -152,6 +152,12 @@ export const translations = {
             }
             ]
         }
+    },    
+    projects: {
+      eyebrow: "Projetos",
+    },
+        stack: {
+      eyebro: "Stacks"
     },
     footer: {
       text: "Feito com React."
