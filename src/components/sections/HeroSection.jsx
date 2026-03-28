@@ -1,8 +1,20 @@
+import { ChevronDown } from "lucide-react";
 import { useLanguage } from "../../context/LanguageContext";
 import Container from "../ui/Container";
 
 export default function HeroSection() {
   const { t } = useLanguage();
+
+  const handleScrollNext = () => {
+    const nextSection = document.querySelector("#projects");
+
+    if (nextSection) {
+      nextSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
 
   return (
     <section className="hero section" id="top">
@@ -26,8 +38,6 @@ export default function HeroSection() {
                 </p>
               </div>
             </div>
-
-            
           </div>
 
           <div className="hero__right">
@@ -67,6 +77,18 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
+
+        <button
+          type="button"
+          className="hero-scroll"
+          onClick={handleScrollNext}
+          aria-label="Scroll to next section"
+        >
+          <span className="hero-scroll__text"></span>
+          <span className="hero-scroll__icon">
+            <ChevronDown size={22} strokeWidth={2} />
+          </span>
+        </button>
       </Container>
     </section>
   );

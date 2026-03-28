@@ -1,7 +1,9 @@
+import { Home } from "lucide-react";
+
 export const translations = {
   en: {
     nav: {
-      hero: "Home",
+      home: "Home",
       about: "About",
       projects: "Projects",
       stack: "Stack",
@@ -55,7 +57,7 @@ export const translations = {
 
   es: {
     nav: {
-      hero: "Inicio",
+      home: "Inicio",
       about: "Sobre mí",
       projects: "Proyectos",
       stack: "Stack",
@@ -110,7 +112,7 @@ export const translations = {
 
   pt: {
     nav: {
-      hero: "Inicio",
+      home: "Inicio",
       about: "Sobre mim",
       projects: "Projetos",
       stack: "Stack",

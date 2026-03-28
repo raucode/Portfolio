@@ -5,7 +5,6 @@ import {
   getContact,
   getCvData,
   getFeaturedProjects,
-  getMindset,
   getProfile,
   getProjects,
   getStack,
@@ -19,11 +18,6 @@ export function useProfile() {
 export function useAbout() {
   const { language } = useLanguage();
   return useMemo(() => getAbout(language), [language]);
-}
-
-export function useMindset() {
-  const { language } = useLanguage();
-  return useMemo(() => getMindset(language), [language]);
 }
 
 export function useStack() {

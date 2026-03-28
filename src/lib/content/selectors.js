@@ -23,11 +23,6 @@ export function getAbout(language) {
   };
 }
 
-export function getMindset(language) {
-  const { mindset = {} } = loadSiteContent();
-  return getLocalizedValue(mindset.content, language) || {};
-}
-
 export function getStack(language) {
   const { stack = {} } = loadSiteContent();
   return getLocalizedValue(stack.content, language) || {};
