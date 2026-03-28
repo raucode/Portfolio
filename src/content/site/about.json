@@ -1,25 +1,46 @@
 {
   "public": {
-    "name": "Raúl Figuera",
-    "location": "Brazil",
-    "roles": ["Backend", "Frontend", "System Design"],
-    "interests": ["software architecture", "product thinking", "game development"]
+    "firstName": "Raúl",
+    "lastName": "Figuera",
+    "fullName": "Raúl Figuera",
+    "country": "Brazil"
   },
   "content": {
-    "en": {
-      "title": "About me",
-      "description": "I move across backend, frontend and design when needed, but the center stays the same: understanding the full system to make better decisions.",
-      "extra": "My profile blends technical thinking, visual sensitivity and product awareness."
-    },
     "es": {
-      "title": "Sobre mí",
-      "description": "Me muevo entre backend, frontend y diseño cuando hace falta, pero el centro es el mismo: entender el sistema completo para tomar mejores decisiones.",
-      "extra": "Mi perfil mezcla pensamiento técnico, sensibilidad visual y visión de producto."
+      "eyebrow": "Sobre mí",
+      "title": "Raúl Figuera",
+      "paragraph": "Soy Raúl Figuera y me gusta entender los proyectos más allá de la superficie. Me interesa cómo están pensados, cómo escalan, dónde pueden romperse y qué decisiones realmente les dan solidez con el tiempo. Aprendo rápido, me involucro de lleno en lo que construyo y suelo moverme por distintas capas del proyecto para tener una visión más amplia y tomar mejores decisiones. Mi perfil es profundamente técnico y orientado a arquitectura, pero también cuido la experiencia, el detalle y la claridad de lo que recibe el usuario. Valoro el feedback directo porque me ayuda a crecer más rápido, y me atraen especialmente los sistemas complejos, los productos con ambición y los retos donde hace falta criterio de verdad.",
+      "quote": "Nunca pares de aprender.",
+      "coreWords": ["Ambición", "Escalabilidad", "Arquitectura"],
+      "highlights": [
+        "Pensamiento sistémico",
+        "Decisiones escalables",
+        "Técnica con intención"
+      ]
+    },
+    "en": {
+      "eyebrow": "About me",
+      "title": "Raúl Figuera",
+      "paragraph": "I'm Raúl Figuera, and I like to understand projects beyond the surface. I'm interested in how they are designed, how they scale, where they can break, and which decisions truly give them strength over time. I learn fast, get deeply involved in what I build, and naturally move across different layers of a project to gain broader context and make better decisions. My profile is deeply technical and architecture-oriented, but I also care about experience, detail, and the clarity of what reaches the user. I value direct feedback because it helps me grow faster, and I'm especially drawn to complex systems, ambitious products, and challenges that demand real judgment.",
+      "quote": "Never stop learning.",
+      "coreWords": ["Ambición", "Escalabilidad", "Arquitectura"],
+      "highlights": [
+        "System thinking",
+        "Scalable decisions",
+        "Intentional technique"
+      ]
     },
     "pt": {
-      "title": "Sobre mim",
-      "description": "Transito entre backend, frontend e design quando necessário, mas o centro é o mesmo: entender o sistema completo para tomar decisões melhores.",
-      "extra": "Meu perfil mistura pensamento técnico, sensibilidade visual e visão de produto."
+      "eyebrow": "Sobre mim",
+      "title": "Raúl Figuera",
+      "paragraph": "Sou Raúl Figuera e gosto de entender os projetos além da superfície. Tenho interesse em como eles são pensados, como escalam, onde podem quebrar e quais decisões realmente dão solidez ao longo do tempo. Aprendo rápido, me envolvo de verdade no que construo e costumo transitar por diferentes camadas do projeto para ter uma visão mais ampla e tomar decisões melhores. Meu perfil é profundamente técnico e orientado à arquitetura, mas também cuido da experiência, do detalhe e da clareza do que chega ao usuário. Valorizo feedback direto porque isso me ajuda a crescer mais rápido, e me atraem especialmente sistemas complexos, produtos ambiciosos e desafios que exigem critério de verdade.",
+      "quote": "Nunca pare de aprender.",
+      "coreWords": ["Ambición", "Escalabilidad", "Arquitectura"],
+      "highlights": [
+        "Pensamento sistêmico",
+        "Decisões escaláveis",
+        "Técnica com intenção"
+      ]
     }
   }
 }

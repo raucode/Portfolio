@@ -1,6 +1,7 @@
 {
   "content": {
     "en": {
+      "eyebrow": "Stack",
       "title": "Technology in service of solid systems.",
       "description": "Tools matter when they support long-term structure, clarity and execution.",
       "items": [
@@ -19,6 +20,7 @@
       ]
     },
     "es": {
+      "eyebrow": "Stack",
       "title": "Tecnología al servicio de sistemas sólidos.",
       "description": "Las herramientas importan cuando sostienen estructura, claridad y ejecución a largo plazo.",
       "items": [
@@ -37,6 +39,7 @@
       ]
     },
     "pt": {
+      "eyebrow": "Stack",
       "title": "Tecnologia a serviço de sistemas sólidos.",
       "description": "Ferramentas importam quando sustentam estrutura, clareza e execução no longo prazo.",
       "items": [

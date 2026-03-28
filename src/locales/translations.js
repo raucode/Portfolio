@@ -1,6 +1,7 @@
 export const translations = {
   en: {
     nav: {
+      hero: "Home",
       about: "About",
       projects: "Projects",
       stack: "Stack",
@@ -41,86 +42,11 @@ export const translations = {
             ]
         }
     },
-    mindset: {
-      eyebrow: "Mindset",
-      title: "I build with the future weight of the system in mind.",
-      description:
-        "I care about more than getting things to work. I try to understand how a system will evolve, challenge architectural decisions early, and keep complexity from turning into structural debt.",
-      statementLabel: "What guides me",
-      statement: "Scale does not break systems on its own. Accumulated decisions do.",
-      items: [
-        {
-          title: "System perspective",
-          description:
-            "I look at logic, product, and user experience as parts of the same system, not as isolated layers.",
-        },
-        {
-          title: "Architecture on purpose",
-          description:
-            "I make structural decisions with change, clarity, and maintainability in mind from the start.",
-        },
-        {
-          title: "Critical thinking early",
-          description:
-            "I question assumptions and weak abstractions before they become expensive problems.",
-        },
-        {
-          title: "Real product awareness",
-          description:
-            "Technical quality matters when it supports a product that is useful, coherent, and built to last.",
-        }
-      ]
-    },
     projects: {
       eyebrow: "Projects",
-      title: "Selected work with real-world context.",
-      description:
-        "Core systems and product components built around architecture, scalability and business logic.",
-      labels: {
-        highlights: "Highlights",
-        stack: "Stack",
-        demo: "Live view",
-        github: "GitHub"
-      }
     },
     stack: {
-      eyebrow: "Stack",
-      title: "Technology in service of solid systems.",
-      description:
-        "Tools matter when they support long-term structure, clarity and execution.",
-      items: [
-        {
-          title: "Backend",
-          description:
-            "Rust, Actix Web, APIs, services, repos and modular architecture."
-        },
-        {
-          title: "Frontend",
-          description:
-            "React, Redux Toolkit, component structure and product-driven UI."
-        },
-        {
-          title: "Tooling",
-          description:
-            "Linux, Arch, Hyprland, workflow customization and system-level thinking."
-        }
-      ]
-    },
-    about: {
-      eyebrow: "About",
-      title: "Range with direction.",
-      description:
-        "I move across backend, frontend and design when needed, but the center stays the same: understanding the full system to make better decisions.",
-      extra:
-        "My background blends technical thinking, visual sensitivity and product awareness. I learn constantly because building better requires understanding beyond the immediate task."
-    },
-    contact: {
-      eyebrow: "Contact",
-      title: "Let’s build something solid from the ground up.",
-      description:
-        "If you care about backend architecture, product thinking and systems that scale, we should talk.",
-      primaryCta: "Send email",
-      secondaryCta: "GitHub"
+      eyebro: "Stacks"
     },
     footer: {
       text: "Built with React."
@@ -129,6 +55,7 @@ export const translations = {
 
   es: {
     nav: {
+      hero: "Inicio",
       about: "Sobre mí",
       projects: "Proyectos",
       stack: "Stack",
@@ -169,86 +96,12 @@ export const translations = {
             ]
         }
     },
-    mindset: {
-      eyebrow: "Mentalidad",
-      title: "Construyo pensando en escalar.",
-      description:
-        "Me importa mas que algo funcione independientemente del tamano del sistema a que funcione y se rompa 'solo'. Cuestionando decisiones y probando al maximo sistemas para que funcione bien",
-      statementLabel: "Lo que me guía",
-      statement: "La escala no rompe sistemas por sí sola. Las decisiones acumuladas sí.",
-      items: [
-        {
-          title: "Visión de sistema",
-          description:
-            "Veo la lógica, el producto y la experiencia como partes del mismo sistema, no como capas aisladas.",
-        },
-        {
-          title: "Arquitectura con propósito",
-          description:
-            "Tomo decisiones estructurales pensando en cambio, claridad y mantenimiento desde el inicio.",
-        },
-        {
-          title: "Pensamiento crítico temprano",
-          description:
-            "Cuestiono supuestos y abstracciones débiles antes de que se conviertan en problemas caros.",
-        },
-        {
-          title: "Conciencia de producto real",
-          description:
-            "La calidad técnica importa cuando sostiene un producto útil, coherente y preparado para durar.",
-        }
-      ]
-    },
+    
     projects: {
       eyebrow: "Proyectos",
-      title: "Trabajo seleccionado con contexto real.",
-      description:
-        "Sistemas clave y componentes de producto construidos alrededor de arquitectura, escalabilidad y lógica de negocio.",
-      labels: {
-        highlights: "Puntos clave",
-        stack: "Stack",
-        demo: "Ver demo",
-        github: "GitHub"
-      }
     },
-    stack: {
-      eyebrow: "Stack",
-      title: "Tecnología al servicio de sistemas sólidos.",
-      description:
-        "Las herramientas importan cuando sostienen estructura, claridad y ejecución a largo plazo.",
-      items: [
-        {
-          title: "Backend",
-          description:
-            "Rust, Actix Web, APIs, servicios, repositorios y arquitectura modular."
-        },
-        {
-          title: "Frontend",
-          description:
-            "React, Redux Toolkit, estructura de componentes y UI orientada a producto."
-        },
-        {
-          title: "Tooling",
-          description:
-            "Linux, Arch, Hyprland, personalización de workflow y pensamiento a nivel sistema."
-        }
-      ]
-    },
-    about: {
-      eyebrow: "Sobre mí",
-      title: "Amplitud con dirección.",
-      description:
-        "Me muevo entre backend, frontend y diseño cuando hace falta, pero el centro es el mismo: entender el sistema completo para tomar mejores decisiones.",
-      extra:
-        "Mi perfil mezcla pensamiento técnico, sensibilidad visual y visión de producto. Aprendo constantemente porque construir mejor exige entender más allá de la tarea inmediata."
-    },
-    contact: {
-      eyebrow: "Contacto",
-      title: "Construyamos algo sólido desde la base.",
-      description:
-        "Si te importan la arquitectura backend, la visión de producto y los sistemas que escalan, deberíamos hablar.",
-      primaryCta: "Enviar email",
-      secondaryCta: "GitHub"
+        stack: {
+      eyebro: "Stacks"
     },
     footer: {
       text: "Hecho con React."
@@ -257,6 +110,7 @@ export const translations = {
 
   pt: {
     nav: {
+      hero: "Inicio",
       about: "Sobre mim",
       projects: "Projetos",
       stack: "Stack",
@@ -296,90 +150,6 @@ export const translations = {
             }
             ]
         }
-    },
-    mindset: {
-      eyebrow: "Mentalidade",
-      title: "Eu construo pensando no peso que o sistema vai ter quando crescer.",
-      description:
-        "Eu me importo com mais do que simplesmente fazer algo funcionar. Tento entender como o sistema vai evoluir, questionar decisões de arquitetura no momento certo e evitar que a complexidade vire dívida estrutural.",
-
-      statementLabel: "Em resumo",
-      statement: "Eu não penso só em fazer funcionar. Eu penso no que acontece quando o sistema cresce.",
-
-      items: [
-        {
-          title: "Visão de sistema",
-          description:
-            "Vejo lógica, produto e experiência como partes do mesmo sistema, não como camadas isoladas.",
-        },
-        {
-          title: "Arquitetura com propósito",
-          description:
-            "Tomo decisões estruturais pensando em mudança, clareza e manutenção desde o início.",
-        },
-        {
-          title: "Pensamento crítico antecipado",
-          description:
-            "Questiono suposições e abstrações fracas antes que virem problemas caros.",
-        },
-        {
-          title: "Consciência de produto real",
-          description:
-            "Qualidade técnica importa quando sustenta um produto útil, coerente e feito para durar.",
-        }
-      ]
-    },
-
-    projects: {
-      eyebrow: "Projetos",
-      title: "Trabalho selecionado com contexto real.",
-      description:
-        "Sistemas centrais e componentes de produto construídos em torno de arquitetura, escalabilidade e lógica de negócio.",
-      labels: {
-        highlights: "Destaques",
-        stack: "Stack",
-        demo: "Ver demo",
-        github: "GitHub"
-      }
-    },
-    stack: {
-      eyebrow: "Stack",
-      title: "Tecnologia a serviço de sistemas sólidos.",
-      description:
-        "Ferramentas importam quando sustentam estrutura, clareza e execução no longo prazo.",
-      items: [
-        {
-          title: "Backend",
-          description:
-            "Rust, Actix Web, APIs, serviços, repositórios e arquitetura modular."
-        },
-        {
-          title: "Frontend",
-          description:
-            "React, Redux Toolkit, estrutura de componentes e UI orientada a produto."
-        },
-        {
-          title: "Tooling",
-          description:
-            "Linux, Arch, Hyprland, customização de workflow e pensamento em nível de sistema."
-        }
-      ]
-    },
-    about: {
-      eyebrow: "Sobre mim",
-      title: "Amplitude com direção.",
-      description:
-        "Transito entre backend, frontend e design quando necessário, mas o centro é o mesmo: entender o sistema completo para tomar decisões melhores.",
-      extra:
-        "Meu perfil mistura pensamento técnico, sensibilidade visual e visão de produto. Aprendo constantemente porque construir melhor exige entender além da tarefa imediata."
-    },
-    contact: {
-      eyebrow: "Contato",
-      title: "Vamos construir algo sólido desde a base.",
-      description:
-        "Se você valoriza arquitetura backend, visão de produto e sistemas que escalam, vale a pena conversar.",
-      primaryCta: "Enviar email",
-      secondaryCta: "GitHub"
     },
     footer: {
       text: "Feito com React."

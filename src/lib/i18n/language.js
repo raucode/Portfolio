@@ -16,4 +16,4 @@ export function normalizeLanguage(value) {
 export function detectBrowserLanguage() {
   if (typeof navigator === "undefined") return DEFAULT_LANGUAGE;
   return normalizeLanguage(navigator.language);
-}2
+}

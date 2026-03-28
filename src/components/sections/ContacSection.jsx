@@ -1,28 +1,30 @@
-import { useLanguage } from "../../context/LanguageContext";
 import Container from "../ui/Container";
 import Button from "../ui/Button";
 import SectionHeading from "../ui/SectionHeading";
+import { useContactContent } from "../../lib/content/useContent";
 
 export default function ContactSection() {
-  const { t } = useLanguage();
+  const contact = useContactContent();
+
+  if (!contact) return null;
 
   return (
     <section className="section" id="contact">
       <Container>
         <div className="contact-box">
           <SectionHeading
-            eyebrow={t.contact.eyebrow}
-            title={t.contact.title}
-            description={t.contact.description}
+            eyebrow={contact.eyebrow}
+            title={contact.title}
+            description={contact.description}
           />
 
           <div className="hero__actions">
-            <Button href="mailto:raulfigueracode@gmail.com" variant="primary">
-              {t.contact.primaryCta}
+            <Button href={`mailto:${contact.email}`} variant="primary">
+              {contact.primaryCta}
             </Button>
 
-            <Button href="https://github.com/raucode" variant="secondary">
-              {t.contact.secondaryCta}
+            <Button href={contact.github} variant="secondary">
+              {contact.secondaryCta}
             </Button>
           </div>
         </div>

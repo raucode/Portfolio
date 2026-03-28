@@ -1,11 +1,10 @@
-import { useLanguage } from "../../context/LanguageContext";
 import Container from "../ui/Container";
 import SectionHeading from "../ui/SectionHeading";
+import { useMindset } from "../../lib/content/useContent";
 
 export default function MindsetSection() {
-  const { t } = useLanguage();
+  const mindset = useMindset() || {};
 
-  const mindset = t?.mindset ?? {};
   const items = Array.isArray(mindset.items) ? mindset.items : [];
   const showIntro = Boolean(mindset.statementLabel || mindset.statement);
 
@@ -36,7 +35,10 @@ export default function MindsetSection() {
 
         <div className="info-grid mindset-grid">
           {items.map((item, index) => (
-            <article key={`${item.title}-${index}`} className="info-card mindset-card">
+            <article
+              key={`${item.title || "item"}-${index}`}
+              className="info-card mindset-card"
+            >
               <div className="mindset-card__top">
                 <span className="mindset-card__index">
                   {String(index + 1).padStart(2, "0")}
