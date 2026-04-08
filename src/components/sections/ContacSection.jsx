@@ -2,19 +2,20 @@ import Container from "../ui/Container";
 import Button from "../ui/Button";
 import SectionHeading from "../ui/SectionHeading";
 import { useContactContent } from "../../lib/content/useContent";
-import { trackEvent } from "../../lib/analytics";
 
 export default function ContactSection() {
   const contact = useContactContent();
 
   if (!contact) return null;
 
-  const handleClick = (type, href) => {
-    trackEvent("contact_cta_click", {
-      section: "contact",
-      cta_type: type,
-      cta_href: href,
-    });
+  const trackClick = (ctaType, href) => {
+    if (typeof window !== "undefined" && typeof window.gtag === "function") {
+      window.gtag("event", "contact_cta_click", {
+        section: "contact",
+        cta_type: ctaType,
+        cta_href: href,
+      });
+    }
   };
 
   return (
@@ -31,7 +32,7 @@ export default function ContactSection() {
             <Button
               href={`mailto:${contact.email}`}
               variant="primary"
-              onClick={() => handleClick("email", `mailto:${contact.email}`)}
+              onClick={() => trackClick("email", `mailto:${contact.email}`)}
             >
               {contact.primaryCta}
             </Button>
@@ -39,7 +40,7 @@ export default function ContactSection() {
             <Button
               href={contact.github}
               variant="secondary"
-              onClick={() => handleClick("github", contact.github)}
+              onClick={() => trackClick("github", contact.github)}
             >
               {contact.secondaryCta}
             </Button>
@@ -47,7 +48,7 @@ export default function ContactSection() {
             <Button
               href="/resume"
               variant="secondary"
-              onClick={() => handleClick("resume", "/resume")}
+              onClick={() => trackClick("resume", "/resume")}
             >
               CV Export
             </Button>
