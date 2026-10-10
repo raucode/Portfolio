@@ -39,7 +39,7 @@ Deployment target: `/home/raul/portfolio` on `main-server`, served at `http://19
 
 ## Domain
 
-Canonical URL, sitemap and metadata target `https://www.raulabz.online/`. The hostname did not resolve during the 2026-10-10 review. The compiled React app is deployed on `main-server` at `http://192.168.18.10:8102`. Connecting the custom domain through Cloudflare remains pending.
+Canonical URL, sitemap and metadata target `https://www.raulabz.online/`. Public HTTPS at `https://www.raulabz.online/` was verified on 2026-10-10 after Raul connected the domain. The origin remains `http://192.168.18.10:8102` on `main-server`.
 
 ## Verification
 

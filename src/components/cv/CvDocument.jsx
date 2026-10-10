@@ -50,7 +50,7 @@ export default function CvDocument({ cv }) {
           ) : null}
 
           {basics?.website ? (
-            <p>{renderLink(t.site, basics.website)}</p>
+            <p>{renderLink(<><span className="no-print">{basics.website.replace(/^https?:\/\//, "").replace(/\/$/, "")}</span><span className="cv-document__contact-print-label">{t.site}</span></>, basics.website)}</p>
           ) : null}
 
           {basics?.github ? (

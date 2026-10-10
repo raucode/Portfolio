@@ -5,6 +5,7 @@ import App from "./App";
 import { LanguageProvider } from "./context/LanguageContext";
 import "./styles/sections/cv.css";
 import "./styles/portfolio.css";
+import "./styles/resume-preview.css";
 
 const Router = window.location.protocol === "file:" ? MemoryRouter : BrowserRouter;
 
