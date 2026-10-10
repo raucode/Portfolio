@@ -1,0 +1,60 @@
+{
+  "slug": "second-brain",
+  "featured": true,
+  "visible": true,
+  "includeInCv": true,
+  "order": 2,
+  "access": "private",
+  "stack": [
+    "Rust",
+    "React",
+    "PostgreSQL",
+    "SQLite",
+    "Ed25519"
+  ],
+  "links": {
+    "github": "",
+    "demo": ""
+  },
+  "media": {
+    "cover": "/project_preview/second-brain.webp",
+    "kind": "demo",
+    "alt": {
+      "es": "Second Brain · Demo",
+      "en": "Second Brain · Demo",
+      "pt": "Second Brain · Demo"
+    }
+  },
+  "content": {
+    "es": {
+      "title": "Second Brain",
+      "summary": "Una plataforma propia de conocimiento y proyectos con agentes, réplica local y continuidad sin conexión.",
+      "description": "Diseñé una plataforma autoalojada que conecta proyectos, tareas, decisiones y conocimiento. PostgreSQL conserva la fuente de verdad; los agentes firman sus operaciones y utilizan una réplica local con cola de sincronización cuando el servidor no está disponible.",
+      "highlights": [
+        "Modelo de información y API Rust",
+        "Réplica local y sincronización",
+        "Continuidad entre herramientas de IA"
+      ]
+    },
+    "en": {
+      "title": "Second Brain",
+      "summary": "A personal knowledge and project platform with agents, local replicas and continuity while offline.",
+      "description": "I designed a self-hosted platform connecting projects, tasks, decisions and knowledge. PostgreSQL holds the source of truth; agents sign their operations and use a local replica with a synchronization queue when the server is unavailable.",
+      "highlights": [
+        "Information model and Rust API",
+        "Local replicas and synchronization",
+        "Continuity across AI tools"
+      ]
+    },
+    "pt": {
+      "title": "Second Brain",
+      "summary": "Uma plataforma própria de conhecimento e projetos com agentes, réplica local e continuidade offline.",
+      "description": "Desenhei uma plataforma autoalojada que conecta projetos, tarefas, decisões e conhecimento. PostgreSQL mantém a fonte de verdade; agentes assinam suas operações e usam uma réplica local com fila de sincronização quando o servidor está indisponível.",
+      "highlights": [
+        "Modelo de informação e API Rust",
+        "Réplica local e sincronização",
+        "Continuidade entre ferramentas de IA"
+      ]
+    }
+  }
+}

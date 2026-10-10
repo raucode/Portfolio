@@ -1,5 +1,5 @@
 export const SUPPORTED_LANGUAGES = ["es", "en", "pt"];
-export const DEFAULT_LANGUAGE = "en";
+export const DEFAULT_LANGUAGE = "es";
 
 export function normalizeLanguage(value) {
   if (!value || typeof value !== "string") return DEFAULT_LANGUAGE;

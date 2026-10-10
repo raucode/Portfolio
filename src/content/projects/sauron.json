@@ -1,0 +1,60 @@
+{
+  "slug": "sauron",
+  "featured": true,
+  "visible": true,
+  "includeInCv": true,
+  "order": 1,
+  "access": "private",
+  "stack": [
+    "Elixir",
+    "Phoenix LiveView",
+    "PostgreSQL",
+    ".NET",
+    "Active Directory"
+  ],
+  "links": {
+    "github": "",
+    "demo": "https://sauron.valedocerrado.com.br"
+  },
+  "media": {
+    "cover": "/project_preview/sauron-demo.webp",
+    "kind": "demo",
+    "alt": {
+      "es": "Sauron · Demo",
+      "en": "Sauron · Demo",
+      "pt": "Sauron · Demo"
+    }
+  },
+  "content": {
+    "es": {
+      "title": "Sauron",
+      "summary": "Operaciones de TI con inventario, agentes Windows y atención de solicitudes por áreas y permisos.",
+      "description": "Desarrollo del producto, interfaz y operación: inventario, seguridad, tickets, conversación, identidad AD/local y agente Windows. La beta de Vale está desplegada; la plataforma independiente evoluciona con entornos de desarrollo y validación separados.",
+      "highlights": [
+        "Inventario y agentes Windows",
+        "Tickets con permisos y trazabilidad",
+        "Integración con Active Directory"
+      ]
+    },
+    "en": {
+      "title": "Sauron",
+      "summary": "IT operations with inventory, Windows agents and ticket workflows organized by areas and permissions.",
+      "description": "Product development, interface and operations: inventory, security, tickets, conversations, AD/local identity and a Windows agent. The Vale beta is deployed; the independent platform is evolving through separate development and validation environments.",
+      "highlights": [
+        "Inventory and Windows agents",
+        "Tickets with permissions and traceability",
+        "Active Directory integration"
+      ]
+    },
+    "pt": {
+      "title": "Sauron",
+      "summary": "Operações de TI com inventário, agentes Windows e atendimento por áreas e permissões.",
+      "description": "Desenvolvimento do produto, interface e operação: inventário, segurança, chamados, conversas, identidade AD/local e agente Windows. A beta do Vale está implantada; a plataforma independente evolui com ambientes separados de desenvolvimento e validação.",
+      "highlights": [
+        "Inventário e agentes Windows",
+        "Chamados com permissões e rastreabilidade",
+        "Integração com Active Directory"
+      ]
+    }
+  }
+}

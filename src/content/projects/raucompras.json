@@ -1,0 +1,46 @@
+{
+  "slug": "raucompras",
+  "featured": false,
+  "visible": true,
+  "includeInCv": false,
+  "order": 8,
+  "access": "private",
+  "stack": [
+    "React",
+    "Docker",
+    "Raupanel"
+  ],
+  "links": {
+    "github": "",
+    "demo": "https://raupanel.raulabz.online/compras/"
+  },
+  "media": {
+    "cover": "/project_preview/raucompras.webp",
+    "kind": "live",
+    "alt": {
+      "es": "RauCompras",
+      "en": "RauCompras",
+      "pt": "RauCompras"
+    }
+  },
+  "content": {
+    "es": {
+      "title": "RauCompras",
+      "summary": "Planificación compartida de compras con horizonte inmediato, medio y largo plazo.",
+      "description": "Aplicación desplegada junto a Raupanel, con listas compartidas y acceso mediante sus cuentas. Organiza necesidades y objetivos de compra por horizonte temporal.",
+      "highlights": []
+    },
+    "en": {
+      "title": "RauCompras",
+      "summary": "Shared purchase planning across immediate, medium and long-term horizons.",
+      "description": "An application deployed alongside Raupanel, with shared lists and access through its accounts. Organizes purchasing needs and goals by time horizon.",
+      "highlights": []
+    },
+    "pt": {
+      "title": "RauCompras",
+      "summary": "Planejamento compartilhado de compras com horizontes imediato, médio e de longo prazo.",
+      "description": "Aplicação implantada junto ao Raupanel, com listas compartilhadas e acesso pelas suas contas. Organiza necessidades e objetivos de compra por horizonte de tempo.",
+      "highlights": []
+    }
+  }
+}

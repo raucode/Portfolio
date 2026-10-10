@@ -1,0 +1,60 @@
+{
+  "slug": "hackaton",
+  "featured": true,
+  "visible": true,
+  "includeInCv": true,
+  "order": 3,
+  "access": "public",
+  "stack": [
+    "Rust",
+    "React",
+    "PostgreSQL",
+    "Redux Toolkit",
+    "Docker"
+  ],
+  "links": {
+    "github": "",
+    "demo": "https://hackaton.raulabz.online"
+  },
+  "media": {
+    "cover": "/project_preview/hackaton.webp",
+    "kind": "live",
+    "alt": {
+      "es": "Hackaton",
+      "en": "Hackaton",
+      "pt": "Hackaton"
+    }
+  },
+  "content": {
+    "es": {
+      "title": "Hackaton",
+      "summary": "Juego de hacking ficticio con software, hardware, economía y progresión, desplegado en mi servidor.",
+      "description": "Backend Rust, frontend React y PostgreSQL para un mundo simulado de hacking. El ciclo inicial conecta tutoriales, encargos, recompensas y mejoras de equipo. Continúa en desarrollo, con software modular, múltiples computadoras y redes como parte del juego.",
+      "highlights": [
+        "Lógica de juego y API Rust",
+        "Interfaz React en tres idiomas",
+        "Despliegue de web, API, worker y base de datos"
+      ]
+    },
+    "en": {
+      "title": "Hackaton",
+      "summary": "A fictional hacking game with software, hardware, economy and progression, deployed on my own server.",
+      "description": "Rust backend, React frontend and PostgreSQL for a simulated hacking world. The initial loop connects tutorials, contracts, rewards and hardware upgrades. Development continues with modular software, multiple computers and networks as part of the game.",
+      "highlights": [
+        "Game logic and Rust API",
+        "React interface in three languages",
+        "Deployment of web, API, worker and database"
+      ]
+    },
+    "pt": {
+      "title": "Hackaton",
+      "summary": "Jogo de hacking fictício com software, hardware, economia e progressão, implantado no meu servidor.",
+      "description": "Backend Rust, frontend React e PostgreSQL para um mundo simulado de hacking. O ciclo inicial conecta tutoriais, contratos, recompensas e melhorias de hardware. Segue em desenvolvimento, com software modular, múltiplos computadores e redes como parte do jogo.",
+      "highlights": [
+        "Lógica de jogo e API Rust",
+        "Interface React em três idiomas",
+        "Implantação de web, API, worker e banco de dados"
+      ]
+    }
+  }
+}

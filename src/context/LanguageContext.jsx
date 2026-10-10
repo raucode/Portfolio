@@ -14,7 +14,8 @@ const LanguageContext = createContext(null);
 function getInitialLanguage() {
   if (typeof window === "undefined") return DEFAULT_LANGUAGE;
 
-  const saved = window.localStorage.getItem(STORAGE_KEY);
+  let saved;
+  try { saved = window.localStorage.getItem(STORAGE_KEY); } catch { /* Storage may be blocked. */ }
   if (saved) return normalizeLanguage(saved);
 
   return detectBrowserLanguage();
@@ -24,7 +25,7 @@ export function LanguageProvider({ children }) {
   const [language, setLanguageState] = useState(getInitialLanguage);
 
   useEffect(() => {
-    window.localStorage.setItem(STORAGE_KEY, language);
+    try { window.localStorage.setItem(STORAGE_KEY, language); } catch { /* Language still works without storage. */ }
     document.documentElement.lang = language;
   }, [language]);
 

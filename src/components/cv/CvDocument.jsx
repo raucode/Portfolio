@@ -1,3 +1,5 @@
+import { portfolioCopy } from "../../locales/portfolio";
+
 function renderLink(label, href) {
   if (!href) return null;
 
@@ -26,6 +28,7 @@ export default function CvDocument({ cv }) {
   if (!cv) return null;
 
   const { basics, summary, projects, stack, sections } = cv;
+  const t = portfolioCopy[cv.meta.language] || portfolioCopy.es;
 
   return (
     <article className="cv-document" id="cv-document">
@@ -47,7 +50,7 @@ export default function CvDocument({ cv }) {
           ) : null}
 
           {basics?.website ? (
-            <p>{renderLink("Website", basics.website)}</p>
+            <p>{renderLink(t.site, basics.website)}</p>
           ) : null}
 
           {basics?.github ? (
@@ -94,7 +97,7 @@ export default function CvDocument({ cv }) {
                   <div className="cv-document__project-top">
                     <div>
                       <h3>{project.title || ""}</h3>
-                      {project.description ? <p>{project.description}</p> : null}
+                      {project.summary ? <p>{project.summary}</p> : null}
                     </div>
 
                     {formattedPeriod ? (
@@ -117,7 +120,7 @@ export default function CvDocument({ cv }) {
                   {project.links ? (
                     <div className="cv-document__links">
                       {project.links.demo
-                        ? renderLink("Demo", project.links.demo)
+                        ? renderLink(project.access === "private" ? t.site : t.openProject, project.links.demo)
                         : null}
                       {project.links.github
                         ? renderLink("GitHub", project.links.github)

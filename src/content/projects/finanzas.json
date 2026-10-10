@@ -1,0 +1,46 @@
+{
+  "slug": "finanzas",
+  "featured": false,
+  "visible": true,
+  "includeInCv": false,
+  "order": 9,
+  "access": "private",
+  "stack": [
+    "Rust",
+    "PostgreSQL",
+    "Docker"
+  ],
+  "links": {
+    "github": "",
+    "demo": ""
+  },
+  "media": {
+    "cover": "",
+    "kind": "none",
+    "alt": {
+      "es": "Sistema financiero",
+      "en": "Sistema financiero",
+      "pt": "Sistema financiero"
+    }
+  },
+  "content": {
+    "es": {
+      "title": "Sistema financiero",
+      "summary": "Herramienta personal autoalojada para registrar y conciliar ingresos, gastos y obligaciones.",
+      "description": "Servicio personal desplegado en mi infraestructura, con acceso privado. Centraliza registros financieros y conciliación; los indicadores presupuestarios y alertas continúan como evolución pendiente.",
+      "highlights": []
+    },
+    "en": {
+      "title": "Sistema financiero",
+      "summary": "A personal self-hosted tool for recording and reconciling income, expenses and obligations.",
+      "description": "A personal service deployed on my infrastructure with private access. Centralizes financial records and reconciliation; budget indicators and alerts remain planned improvements.",
+      "highlights": []
+    },
+    "pt": {
+      "title": "Sistema financiero",
+      "summary": "Ferramenta pessoal autoalojada para registrar e conciliar receitas, despesas e obrigações.",
+      "description": "Serviço pessoal implantado na minha infraestrutura, com acesso privado. Centraliza registros financeiros e conciliação; indicadores de orçamento e alertas seguem como evolução pendente.",
+      "highlights": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "rdx",
+  "featured": false,
+  "visible": true,
+  "includeInCv": false,
+  "order": 7,
+  "access": "public",
+  "stack": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Nginx",
+    "Docker"
+  ],
+  "links": {
+    "github": "https://github.com/RDX-Entertainment",
+    "demo": "https://rdxentertainment.raulabz.online"
+  },
+  "media": {
+    "cover": "/project_preview/rdx.webp",
+    "kind": "live",
+    "alt": {
+      "es": "RDX Entertainment",
+      "en": "RDX Entertainment",
+      "pt": "RDX Entertainment"
+    }
+  },
+  "content": {
+    "es": {
+      "title": "RDX Entertainment",
+      "summary": "Web del estudio independiente que fundé para desarrollar y publicar mis videojuegos.",
+      "description": "Identidad y presencia del estudio RDX Entertainment. Web en tres idiomas, conectada con Hackaton, desplegada en mi servidor propio con Nginx y Docker.",
+      "highlights": []
+    },
+    "en": {
+      "title": "RDX Entertainment",
+      "summary": "Website for the independent studio I founded to develop and publish my games.",
+      "description": "Identity and presence for RDX Entertainment. A website in three languages connected to Hackaton, deployed on my own server with Nginx and Docker.",
+      "highlights": []
+    },
+    "pt": {
+      "title": "RDX Entertainment",
+      "summary": "Site do estúdio independente que fundei para desenvolver e publicar meus jogos.",
+      "description": "Identidade e presença do RDX Entertainment. Site em três idiomas conectado ao Hackaton, implantado no meu próprio servidor com Nginx e Docker.",
+      "highlights": []
+    }
+  }
+}

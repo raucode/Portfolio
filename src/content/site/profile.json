@@ -3,9 +3,9 @@
   "firstName": "Raúl",
   "lastName": "Figuera",
   "role": {
-    "en": "Backend-first developer • Product-minded • Full stack",
-    "es": "Desarrollador backend-first • Visión de producto • Full stack",
-    "pt": "Desenvolvedor backend-first • Visão de produto • Full stack"
+    "en": "Software development · Networks · Infrastructure",
+    "es": "Desarrollo de software · Redes · Infraestructura",
+    "pt": "Desenvolvimento de software · Redes · Infraestrutura"
   },
   "hero": {
     "en": {
@@ -17,8 +17,14 @@
         "title": "Architecture first",
         "description": "Focused on modular systems, clear boundaries and real product logic.",
         "items": [
-          { "label": "Auth", "title": "Role inheritance" },
-          { "label": "Billing", "title": "Subscriptions & payments" }
+          {
+            "label": "Auth",
+            "title": "Role inheritance"
+          },
+          {
+            "label": "Billing",
+            "title": "Subscriptions & payments"
+          }
         ]
       }
     },
@@ -31,8 +37,14 @@
         "title": "Arquitectura primero",
         "description": "Enfoque en sistemas modulares, límites claros y lógica real de producto.",
         "items": [
-          { "label": "Planeación", "title": "Diagramación y gestión de datos" },
-          { "label": "Backend", "title": "Estructura, endpoints y datos" }
+          {
+            "label": "Planeación",
+            "title": "Diagramación y gestión de datos"
+          },
+          {
+            "label": "Backend",
+            "title": "Estructura, endpoints y datos"
+          }
         ]
       }
     },
@@ -45,8 +57,14 @@
         "title": "Arquitetura primeiro",
         "description": "Foco em sistemas modulares, limites claros e lógica real de produto.",
         "items": [
-          { "label": "Auth", "title": "Papéis hereditários" },
-          { "label": "Pagamentos", "title": "Assinaturas e cobrança" }
+          {
+            "label": "Auth",
+            "title": "Papéis hereditários"
+          },
+          {
+            "label": "Pagamentos",
+            "title": "Assinaturas e cobrança"
+          }
         ]
       }
     }

@@ -1,10 +1,16 @@
 {
   "slug": "rust-subscription-component",
-  "featured": true,
+  "featured": false,
   "visible": true,
   "includeInCv": true,
-  "order": 2,
-  "stack": ["Rust", "Actix Web", "PostgreSQL", "SQLx", "Stripe"],
+  "order": 32,
+  "stack": [
+    "Rust",
+    "Actix Web",
+    "PostgreSQL",
+    "SQLx",
+    "Stripe"
+  ],
   "period": {
     "start": "2025-07",
     "end": "2026-03",
@@ -54,5 +60,6 @@
         "Preparado para integração em SaaS"
       ]
     }
-  }
+  },
+  "access": "source"
 }
