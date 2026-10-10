@@ -80,6 +80,15 @@
             "ClickUp",
             "Trello"
           ]
+        },
+        {
+          "title": "AI-assisted development",
+          "description": "I use Codex and Claude as assistants to explore solutions, implement features, review code and document work. They are part of my development workflow alongside project context in Second Brain.",
+          "tech": [
+            "Codex",
+            "Claude"
+          ],
+          "wide": true
         }
       ]
     },
@@ -163,6 +172,15 @@
             "ClickUp",
             "Trello"
           ]
+        },
+        {
+          "title": "Desarrollo asistido por IA",
+          "description": "Uso Codex y Claude como asistentes para explorar soluciones, implementar funcionalidades, revisar código y documentar el trabajo. Los integro en mi flujo de desarrollo junto con el contexto de mis proyectos en Second Brain.",
+          "tech": [
+            "Codex",
+            "Claude"
+          ],
+          "wide": true
         }
       ]
     },
@@ -246,6 +264,15 @@
             "ClickUp",
             "Trello"
           ]
+        },
+        {
+          "title": "Desenvolvimento assistido por IA",
+          "description": "Uso Codex e Claude como assistentes para explorar soluções, implementar funcionalidades, revisar código e documentar o trabalho. Eles fazem parte do meu fluxo de desenvolvimento junto ao contexto dos projetos no Second Brain.",
+          "tech": [
+            "Codex",
+            "Claude"
+          ],
+          "wide": true
         }
       ]
     }

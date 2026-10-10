@@ -1,6 +1,6 @@
 # Raúl Figuera · Portfolio
 
-Dark technical portfolio in Spanish, English and Portuguese. The homepage features Sauron, Second Brain and Hackaton; “View more” expands the additional projects. Includes a self-hosted infrastructure section and a printable resume.
+Dark technical portfolio in Spanish, English and Portuguese. The homepage features Sauron, Second Brain and Hackaton; “View more” expands the additional projects. Includes a self-hosted infrastructure section, AI-assisted development with Codex and Claude, and a printable resume.
 
 ## Development and build
 

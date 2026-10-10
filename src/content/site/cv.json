@@ -13,7 +13,7 @@
   "content": {
     "en": {
       "title": "Resume",
-      "summary": "Developer with a backend focus and experience in networks and infrastructure. I build products and IT tools with Rust, React and PostgreSQL. I configured my own server to host services with Linux, virtualization, containers and monitoring.",
+      "summary": "Developer with a backend focus and experience in networks and infrastructure. I build products and IT tools with Rust, React and PostgreSQL. I configured my own server to host services with Linux, virtualization, containers and monitoring. I work with Codex and Claude as AI assistants.",
       "sections": {
         "summary": "Summary",
         "projects": "Projects",
@@ -23,7 +23,7 @@
     },
     "es": {
       "title": "Currículum",
-      "summary": "Desarrollador con foco backend y experiencia en redes e infraestructura. Construyo productos y herramientas de TI con Rust, React y PostgreSQL. Configuré mi propio servidor para alojar servicios con Linux, virtualización, contenedores y monitorización.",
+      "summary": "Desarrollador con foco backend y experiencia en redes e infraestructura. Construyo productos y herramientas de TI con Rust, React y PostgreSQL. Configuré mi propio servidor para alojar servicios con Linux, virtualización, contenedores y monitorización. Trabajo con Codex y Claude como asistentes de IA.",
       "sections": {
         "summary": "Resumen",
         "projects": "Proyectos",
@@ -33,7 +33,7 @@
     },
     "pt": {
       "title": "Currículo",
-      "summary": "Desenvolvedor com foco backend e experiência em redes e infraestrutura. Construo produtos e ferramentas de TI com Rust, React e PostgreSQL. Configurei meu próprio servidor para hospedar serviços com Linux, virtualização, contêineres e monitoramento.",
+      "summary": "Desenvolvedor com foco backend e experiência em redes e infraestrutura. Construo produtos e ferramentas de TI com Rust, React e PostgreSQL. Configurei meu próprio servidor para hospedar serviços com Linux, virtualização, contêineres e monitoramento. Trabalho com Codex e Claude como assistentes de IA.",
       "sections": {
         "summary": "Resumo",
         "projects": "Projetos",

@@ -1,11 +1,11 @@
 import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowUpRight, ArrowDown, Menu, Server, Network, Code2, Terminal, Workflow, Wrench, Lock, FolderCode } from 'lucide-react';
+import { ArrowUpRight, ArrowDown, Menu, Server, Network, Code2, Terminal, Workflow, Wrench, Bot, Lock, FolderCode } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useAbout, useContactContent, useProfile, useProjects, useStack } from '../lib/content/useContent';
 import { portfolioCopy } from '../locales/portfolio';
 
-const icons = [Code2, Server, Network, Terminal, Workflow, Wrench];
+const icons = [Code2, Server, Network, Terminal, Workflow, Wrench, Bot];
 const navIds = ['projects', 'stack', 'about', 'contact'];
 
 function Tags({ items }) {
@@ -73,7 +73,7 @@ export default function HomePage() {
         {additional.length > 0 && <div className="more-projects"><button className="button" type="button" aria-expanded={moreOpen} aria-controls="more-projects" onClick={() => setMoreOpen(value => !value)}>{moreOpen ? t.showLess : `${t.showMore} (${additional.length})`}<ArrowDown aria-hidden="true" className={moreOpen ? 'rotated' : ''} /></button><div id="more-projects" hidden={!moreOpen}><p className="catalog-note">{t.catalogNote}</p><div className="projects-grid">{additional.map((p, i) => <ProjectCard key={p.slug} project={p} index={i + 3} language={language} t={t} />)}</div></div></div>}
       </div></section>
       <section className="section infra-section" id="infra"><div className="wrap infra-layout"><div><span className="section-index">02 / {t.infraNav}</span><h2>{t.infraTitle}</h2><p className="infra-lead">{t.infraDescription}</p><Tags items={['Proxmox', 'Linux', 'Docker', 'Nginx', 'Cloudflare', 'Zabbix', 'Grafana']} /></div><div className="infra-terminal"><div className="terminal-title"><Server size={16} aria-hidden="true" /><span>infrastructure / self-hosted</span></div><ul>{t.infraItems.map(([name, description], i) => <li key={name}><span className="terminal-check" aria-hidden="true">[0{i + 1}]</span><div><strong>{name}</strong><p>{description}</p></div></li>)}</ul><div className="terminal-footer mono">{t.infraFooter}</div></div></div></section>
-      <section className="section stack-section" id="stack"><div className="wrap"><div className="section-top"><div><span className="section-index">03 / STACK</span><h2>{t.stackTitle}</h2></div><p>{t.stackIntro}</p></div><div className="stack-grid">{stack.items.map((item, i) => { const Icon = icons[i] || Code2; return <article key={item.title} className="stack-item"><span className="stack-icon" aria-hidden="true"><Icon size={20} /></span><h3>{item.title}</h3><p>{item.description}</p><Tags items={item.tech} /></article>; })}</div></div></section>
+      <section className="section stack-section" id="stack"><div className="wrap"><div className="section-top"><div><span className="section-index">03 / STACK</span><h2>{t.stackTitle}</h2></div><p>{t.stackIntro}</p></div><div className="stack-grid">{stack.items.map((item, i) => { const Icon = icons[i] || Code2; return <article key={item.title} className={`stack-item ${item.wide ? "stack-item--wide" : ""}`}><span className="stack-icon" aria-hidden="true"><Icon size={20} /></span><h3>{item.title}</h3><p>{item.description}</p><Tags items={item.tech} /></article>; })}</div></div></section>
       <section className="section" id="about"><div className="wrap about-grid"><div className="about-title"><span className="section-index">04 / {t.nav[2]}</span><h2>{t.about}</h2><p className="quote">“{about.quote}”</p></div><div className="about-text"><p>{about.paragraph}</p><div className="principles">{about.highlights.map(h => <span key={h}>{h}</span>)}</div></div></div></section>
       <section className="contact" id="contact"><div className="wrap contact-inner"><div><span className="section-index">05 / {t.nav[3]}</span><h2>{t.contactTitle}</h2><p>{t.contactLead}</p></div><div><a className="button" href={`mailto:${contact.email}`}>{t.email}<ArrowUpRight aria-hidden="true" /></a><a className="contact-email" href={`mailto:${contact.email}`}>{contact.email}</a></div></div></section>
     </main>

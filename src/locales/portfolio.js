@@ -44,3 +44,7 @@ Object.assign(portfolioCopy.pt, {
   infraFooter: 'código → serviços → infraestrutura → operação', stackTitle: 'As ferramentas seguem o problema.', contactTitle: 'Vamos construir com intenção?',
   contactLead: 'Para desenvolver um produto, conectar sistemas ou melhorar a infraestrutura que os sustenta, vamos conversar.', back: 'Voltar ao portfólio', print: 'Salvar PDF / Imprimir'
 });
+
+portfolioCopy.es.stackIntro = 'Desarrollo, redes e infraestructura conectados en un mismo flujo de trabajo, con Codex y Claude como asistentes de IA.';
+portfolioCopy.en.stackIntro = 'Development, networks and infrastructure connected in one workflow, with Codex and Claude as AI assistants.';
+portfolioCopy.pt.stackIntro = 'Desenvolvimento, redes e infraestrutura conectados em um mesmo fluxo de trabalho, com Codex e Claude como assistentes de IA.';
