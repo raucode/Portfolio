@@ -1,10 +1,15 @@
-import Button from "../components/ui/Button";
+import { Link } from "react-router-dom";
 import Container from "../components/ui/Container";
 import CvDocument from "../components/cv/CvDocument";
 import { useCvData } from "../lib/content/useContent";
 import { exportCvToPdf } from "../lib/cv/pdf";
 
+import { useLanguage } from "../context/LanguageContext";
+import { portfolioCopy } from "../locales/portfolio";
+
 export default function ResumePage() {
+  const { language } = useLanguage();
+  const t = portfolioCopy[language];
   const cv = useCvData();
 
   if (!cv) return null;
@@ -13,16 +18,16 @@ export default function ResumePage() {
     <section className="section cv-preview-page">
       <Container>
         <div className="cv-preview-actions no-print">
-          <Button href="/" variant="secondary">
-            Back
-          </Button>
+          <Link to="/" className="button">
+            {t.back}
+          </Link>
 
           <button
             type="button"
             className="button button--primary"
             onClick={exportCvToPdf}
           >
-            Download PDF
+            {t.print}
           </button>
         </div>
 

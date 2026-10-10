@@ -51,6 +51,7 @@ export function getProjects(language) {
       return {
         slug: project.slug || "",
         featured: !!project.featured,
+        access: project.access || "source",
         visible: project.visible !== false,
         includeInCv: !!project.includeInCv,
         order: typeof project.order === "number" ? project.order : 9999,
@@ -88,6 +89,7 @@ export function getCvData(language) {
 
   const projects = getProjects(language)
     .filter((project) => project.includeInCv)
+    .filter((project) => !settings.selectedProjectSlugs?.length || settings.selectedProjectSlugs.includes(project.slug))
     .slice(0, maxProjects);
 
   const summaryCandidates = [

@@ -1,19 +1,19 @@
 {
   "settings": {
-    "maxProjects": 4,
+    "maxProjects": 3,
     "includeAboutSummary": true,
     "includeStack": true,
     "includeContact": true,
     "selectedProjectSlugs": [
-      "auth-component",
-      "rust-subscription-component",
-      "unity-flappy-duck"
+      "sauron",
+      "second-brain",
+      "hackaton"
     ]
   },
   "content": {
     "en": {
       "title": "Resume",
-      "summary": "Backend-first full stack developer focused on scalable systems, product thinking and clean architecture.",
+      "summary": "Developer with a backend focus and experience in networks and infrastructure. I build products and IT tools with Rust, React and PostgreSQL. I configured my own server to host services with Linux, virtualization, containers and monitoring.",
       "sections": {
         "summary": "Summary",
         "projects": "Projects",
@@ -23,7 +23,7 @@
     },
     "es": {
       "title": "Currículum",
-      "summary": "Desarrollador full stack con foco backend, sistemas escalables, visión de producto y arquitectura limpia.",
+      "summary": "Desarrollador con foco backend y experiencia en redes e infraestructura. Construyo productos y herramientas de TI con Rust, React y PostgreSQL. Configuré mi propio servidor para alojar servicios con Linux, virtualización, contenedores y monitorización.",
       "sections": {
         "summary": "Resumen",
         "projects": "Proyectos",
@@ -33,7 +33,7 @@
     },
     "pt": {
       "title": "Currículo",
-      "summary": "Desenvolvedor full stack com foco backend, sistemas escaláveis, visão de produto e arquitetura limpa.",
+      "summary": "Desenvolvedor com foco backend e experiência em redes e infraestrutura. Construo produtos e ferramentas de TI com Rust, React e PostgreSQL. Configurei meu próprio servidor para hospedar serviços com Linux, virtualização, contêineres e monitoramento.",
       "sections": {
         "summary": "Resumo",
         "projects": "Projetos",
@@ -41,5 +41,9 @@
         "contact": "Contato"
       }
     }
+  },
+  "basics": {
+    "website": "https://www.raulabz.online",
+    "location": "Brasil"
   }
 }

@@ -9,9 +9,13 @@
     "es": {
       "eyebrow": "Sobre mí",
       "title": "Raúl Figuera",
-      "paragraph": "Soy Raúl Figuera y me gusta entender los proyectos más allá de la superficie. Me interesa cómo están pensados, cómo escalan, dónde pueden romperse y qué decisiones realmente les dan solidez con el tiempo. Aprendo rápido, me involucro de lleno en lo que construyo y suelo moverme por distintas capas del proyecto para tener una visión más amplia y tomar mejores decisiones. Mi perfil es profundamente técnico y orientado a arquitectura, pero también cuido la experiencia, el detalle y la claridad de lo que recibe el usuario. Valoro el feedback directo porque me ayuda a crecer más rápido, y me atraen especialmente los sistemas complejos, los productos con ambición y los retos donde hace falta criterio de verdad.",
+      "paragraph": "Soy Raúl Figuera, desarrollador con foco backend y experiencia en redes e infraestructura. Me gusta entender un sistema completo: el código, los datos, las conexiones y lo que ocurre cuando llega a producción. Configuré mi propio servidor para alojar aplicaciones y servicios, y trabajo con Linux, virtualización, contenedores y monitorización. También desarrollo herramientas para operaciones de TI y proyectos de videojuegos bajo mi estudio RDX Entertainment. Cuido la arquitectura, la experiencia de uso y la continuidad de lo que construyo.",
       "quote": "Nunca pares de aprender.",
-      "coreWords": ["Ambición", "Escalabilidad", "Arquitectura"],
+      "coreWords": [
+        "Ambición",
+        "Escalabilidad",
+        "Arquitectura"
+      ],
       "highlights": [
         "Pensamiento sistémico",
         "Decisiones escalables",
@@ -21,9 +25,13 @@
     "en": {
       "eyebrow": "About me",
       "title": "Raúl Figuera",
-      "paragraph": "I'm Raúl Figuera, and I like to understand projects beyond the surface. I'm interested in how they are designed, how they scale, where they can break, and which decisions truly give them strength over time. I learn fast, get deeply involved in what I build, and naturally move across different layers of a project to gain broader context and make better decisions. My profile is deeply technical and architecture-oriented, but I also care about experience, detail, and the clarity of what reaches the user. I value direct feedback because it helps me grow faster, and I'm especially drawn to complex systems, ambitious products, and challenges that demand real judgment.",
+      "paragraph": "I’m Raúl Figuera, a developer with a backend focus and experience in networks and infrastructure. I like understanding an entire system: its code, data, connections and what happens in production. I configured my own server to host applications and services, working with Linux, virtualization, containers and monitoring. I also build IT operations tools and game projects through my studio, RDX Entertainment. I care about architecture, user experience and the continuity of what I build.",
       "quote": "Never stop learning.",
-      "coreWords": ["Ambición", "Escalabilidad", "Arquitectura"],
+      "coreWords": [
+        "Ambición",
+        "Escalabilidad",
+        "Arquitectura"
+      ],
       "highlights": [
         "System thinking",
         "Scalable decisions",
@@ -33,9 +41,13 @@
     "pt": {
       "eyebrow": "Sobre mim",
       "title": "Raúl Figuera",
-      "paragraph": "Sou Raúl Figuera e gosto de entender os projetos além da superfície. Tenho interesse em como eles são pensados, como escalam, onde podem quebrar e quais decisões realmente dão solidez ao longo do tempo. Aprendo rápido, me envolvo de verdade no que construo e costumo transitar por diferentes camadas do projeto para ter uma visão mais ampla e tomar decisões melhores. Meu perfil é profundamente técnico e orientado à arquitetura, mas também cuido da experiência, do detalhe e da clareza do que chega ao usuário. Valorizo feedback direto porque isso me ajuda a crescer mais rápido, e me atraem especialmente sistemas complexos, produtos ambiciosos e desafios que exigem critério de verdade.",
+      "paragraph": "Sou Raúl Figuera, desenvolvedor com foco backend e experiência em redes e infraestrutura. Gosto de entender um sistema completo: código, dados, conexões e o que acontece quando chega à produção. Configurei meu próprio servidor para hospedar aplicações e serviços, trabalhando com Linux, virtualização, contêineres e monitoramento. Também desenvolvo ferramentas para operações de TI e projetos de jogos pelo meu estúdio RDX Entertainment. Cuido da arquitetura, da experiência de uso e da continuidade do que construo.",
       "quote": "Nunca pare de aprender.",
-      "coreWords": ["Ambición", "Escalabilidad", "Arquitectura"],
+      "coreWords": [
+        "Ambición",
+        "Escalabilidad",
+        "Arquitectura"
+      ],
       "highlights": [
         "Pensamento sistêmico",
         "Decisões escaláveis",

@@ -1,10 +1,13 @@
 {
   "slug": "flappy-duck",
-  "featured": true,
+  "featured": false,
   "visible": true,
   "includeInCv": true,
-  "order": 1,
-  "stack": ["Unity", "C#"],
+  "order": 31,
+  "stack": [
+    "Unity",
+    "C#"
+  ],
   "period": {
     "start": "2025-07",
     "end": "2026-03",
@@ -54,5 +57,6 @@
         "Uso de prefabs, zonas de descarte e chão infinito simulado"
       ]
     }
-  }
+  },
+  "access": "public"
 }

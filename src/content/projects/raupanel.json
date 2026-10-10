@@ -1,0 +1,47 @@
+{
+  "slug": "raupanel",
+  "featured": false,
+  "visible": true,
+  "includeInCv": false,
+  "order": 6,
+  "access": "private",
+  "stack": [
+    "Rust",
+    "React",
+    "PostgreSQL",
+    "Docker"
+  ],
+  "links": {
+    "github": "",
+    "demo": "https://raupanel.raulabz.online"
+  },
+  "media": {
+    "cover": "/project_preview/raupanel.webp",
+    "kind": "live",
+    "alt": {
+      "es": "Raupanel",
+      "en": "Raupanel",
+      "pt": "Raupanel"
+    }
+  },
+  "content": {
+    "es": {
+      "title": "Raupanel",
+      "summary": "Proyectos y roadmaps conectados a Second Brain, con acceso controlado y vistas compartibles.",
+      "description": "Cliente especializado de Second Brain para organizar proyectos, planes y próximos pasos. Incorpora permisos por persona y vistas públicas controladas para colaborar sin compartir el espacio completo.",
+      "highlights": []
+    },
+    "en": {
+      "title": "Raupanel",
+      "summary": "Projects and roadmaps connected to Second Brain, with controlled access and shareable views.",
+      "description": "A specialized Second Brain client organizing projects, plans and next steps. Includes permissions per person and controlled public views for collaboration without sharing the whole workspace.",
+      "highlights": []
+    },
+    "pt": {
+      "title": "Raupanel",
+      "summary": "Projetos e roadmaps conectados ao Second Brain, com acesso controlado e vistas compartilháveis.",
+      "description": "Cliente especializado do Second Brain para organizar projetos, planos e próximos passos. Inclui permissões por pessoa e vistas públicas controladas para colaborar sem compartilhar todo o espaço.",
+      "highlights": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "minecraft-admin",
+  "featured": false,
+  "visible": true,
+  "includeInCv": false,
+  "order": 10,
+  "access": "private",
+  "stack": [
+    "Linux",
+    "Docker",
+    "Cloudflare Access"
+  ],
+  "links": {
+    "github": "",
+    "demo": ""
+  },
+  "media": {
+    "cover": "",
+    "kind": "none",
+    "alt": {
+      "es": "Minecraft Admin",
+      "en": "Minecraft Admin",
+      "pt": "Minecraft Admin"
+    }
+  },
+  "content": {
+    "es": {
+      "title": "Minecraft Admin",
+      "summary": "Panel privado para operar mi servidor de Minecraft y su entorno de servicios.",
+      "description": "Panel administrativo autoalojado, protegido con Cloudflare Access. Forma parte del laboratorio donde configuro servidores, despliegues y herramientas de operación.",
+      "highlights": []
+    },
+    "en": {
+      "title": "Minecraft Admin",
+      "summary": "A private panel for operating my Minecraft server and its surrounding services.",
+      "description": "A self-hosted administration panel protected by Cloudflare Access. Part of the lab where I configure servers, deployments and operational tooling.",
+      "highlights": []
+    },
+    "pt": {
+      "title": "Minecraft Admin",
+      "summary": "Painel privado para operar meu servidor de Minecraft e seu ambiente de serviços.",
+      "description": "Painel administrativo autoalojado, protegido com Cloudflare Access. Parte do laboratório onde configuro servidores, implantações e ferramentas operacionais.",
+      "highlights": []
+    }
+  }
+}

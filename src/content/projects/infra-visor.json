@@ -1,0 +1,48 @@
+{
+  "slug": "infra-visor",
+  "featured": false,
+  "visible": true,
+  "includeInCv": false,
+  "order": 4,
+  "access": "private",
+  "stack": [
+    "Rust",
+    "Actix Web",
+    "React",
+    "PostgreSQL",
+    "GLPI"
+  ],
+  "links": {
+    "github": "",
+    "demo": "https://visor.valedocerrado.com.br"
+  },
+  "media": {
+    "cover": "/project_preview/infra-visor.webp",
+    "kind": "live",
+    "alt": {
+      "es": "Visor de infraestructura",
+      "en": "Visor de infraestructura",
+      "pt": "Visor de infraestructura"
+    }
+  },
+  "content": {
+    "es": {
+      "title": "Visor de infraestructura",
+      "summary": "Inventario de red sobre planos: equipos, cámaras, puertos y conexiones, integrado con GLPI.",
+      "description": "Une inventario y topología: sitúa equipos en planos, representa cables y puertos y permite seguir conexiones entre plantas. Incluye integraciones, importación y exportación CSV y permisos por rol. Desplegado en el entorno empresarial.",
+      "highlights": []
+    },
+    "en": {
+      "title": "Visor de infraestructura",
+      "summary": "Network inventory on floor plans: devices, cameras, ports and connections, integrated with GLPI.",
+      "description": "Connects inventory and topology: places devices on floor plans, represents cables and ports and follows connections across floors. Includes integrations, CSV import/export and role permissions. Deployed in a business environment.",
+      "highlights": []
+    },
+    "pt": {
+      "title": "Visor de infraestructura",
+      "summary": "Inventário de rede sobre plantas: equipamentos, câmeras, portas e conexões, integrado com GLPI.",
+      "description": "Conecta inventário e topologia: posiciona equipamentos em plantas, representa cabos e portas e acompanha conexões entre andares. Inclui integrações, importação/exportação CSV e permissões por perfil. Implantado em ambiente empresarial.",
+      "highlights": []
+    }
+  }
+}

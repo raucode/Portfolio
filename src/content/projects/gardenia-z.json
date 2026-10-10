@@ -1,0 +1,47 @@
+{
+  "slug": "gardenia-z",
+  "featured": false,
+  "visible": true,
+  "includeInCv": false,
+  "order": 5,
+  "access": "public",
+  "stack": [
+    "Godot",
+    "GDScript",
+    "React",
+    "Docker"
+  ],
+  "links": {
+    "github": "",
+    "demo": "https://landing-gardenia-z.raulabz.online"
+  },
+  "media": {
+    "cover": "/project_preview/gardenia-z.webp",
+    "kind": "live",
+    "alt": {
+      "es": "Gardenia Z",
+      "en": "Gardenia Z",
+      "pt": "Gardenia Z"
+    }
+  },
+  "content": {
+    "es": {
+      "title": "Gardenia Z",
+      "summary": "Shooter en desarrollo con supervivencia cooperativa, backend, landing y panel para la beta.",
+      "description": "Los Malditos es el modo principal de un proyecto de largo recorrido. El trabajo reúne gameplay, networking, servicios backend y gestión de la beta. La landing está publicada; el juego sigue en pruebas y desarrollo.",
+      "highlights": []
+    },
+    "en": {
+      "title": "Gardenia Z",
+      "summary": "A shooter in development with cooperative survival, backend, landing page and beta administration.",
+      "description": "Los Malditos is the main mode of a long-term project. Work spans gameplay, networking, backend services and beta administration. The landing page is published; the game remains in testing and development.",
+      "highlights": []
+    },
+    "pt": {
+      "title": "Gardenia Z",
+      "summary": "Shooter em desenvolvimento com sobrevivência cooperativa, backend, landing e painel da beta.",
+      "description": "Los Malditos é o modo principal de um projeto de longo prazo. O trabalho reúne gameplay, networking, serviços backend e gestão da beta. A landing está publicada; o jogo segue em testes e desenvolvimento.",
+      "highlights": []
+    }
+  }
+}
