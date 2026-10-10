@@ -33,9 +33,13 @@ The file opens directly without a server. It uses an in-memory router on `file:/
 - `src/styles/portfolio.css`: the selected dark technical design.
 - [Project evidence and curation](docs/PROJECTS.md).
 
+## Main-server hosting
+
+Deployment target: `/home/raul/portfolio` on `main-server`, served at `http://192.168.18.10:8102`. See [deployment instructions](deployment/README.md).
+
 ## Domain
 
-Canonical URL, sitemap and metadata target `https://www.raulabz.online/`. The hostname did not resolve during the 2026-10-10 review. The source and static build are ready; publication and DNS connection are not claimed complete.
+Canonical URL, sitemap and metadata target `https://www.raulabz.online/`. The hostname did not resolve during the 2026-10-10 review. The compiled React app is deployed on `main-server` at `http://192.168.18.10:8102`. Connecting the custom domain through Cloudflare remains pending.
 
 ## Verification
 
